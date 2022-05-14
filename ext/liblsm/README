@@ -1,0 +1,9 @@
+This library contains basic code for initializing and reading from the LSM6DS3
+module included on capybara and edbsat boards.
+
+Because of its interactions with i2c and libmspware, there's a high probability
+that this library will need to be compiled strictly with gcc, but so it goes.
+
+
+Finally, this code is written based on a driver put together by A. Colin
+(github.com/alexeicolin) and Brandon Lucia (github.com/blucia0a)

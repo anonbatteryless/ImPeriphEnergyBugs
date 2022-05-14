@@ -1,0 +1,24 @@
+This branch was set up to run on linux mint with llvm-7 installed through apt.
+
+-Makefile: read this to see the different flags you can set
+-llvm_it.sh: script that compiles the pass, the app, libpacarana, and runs the
+pass on the app
+-inputs: inputs to the automated toggle insertion
+-src: directory for llvm C++ files
+  tasks.cpp is effectively the "main" file of this pass, start there and use ctags
+  to find your way around.
+  ...
+
+
+
+
+To compile an app to work with the pacarana-pass, you need to make the following
+changes in maker and the usual msp libraries:
+
+-Makefile.gcc: get rid of -mlarge flags, they bring in MSP430X instructions that
+clang can't handle
+-Makefile.clang: get rid of -Ox flags-- they optimizations prevent our pass from
+seeing what states peripherals are defined as.
+-libmsp: in mem.h, redefine __nv as __attribute__((section(".persistent"))) ,
+not __attribute__((section(".upper.rodata")))
+

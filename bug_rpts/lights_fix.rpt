@@ -1,0 +1,15 @@
+Analyzing atomic block starts:
+==============================================================
+
+Checking atomic block starting on line:571
+	Checking asynch_status: OK, state is 1
+	Checking led_status: OK, state is 0
+	Checking photo_status: OK, state is 2
+Checking atomic block starting on line:553
+	Checking asynch_status: OK, state is 1
+	Checking led_status: WARNING, multiple state definitions
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 233 : Value :0
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 679 : Value :1
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 676 : Value :0
+	Checking photo_status: OK, state is 2
+

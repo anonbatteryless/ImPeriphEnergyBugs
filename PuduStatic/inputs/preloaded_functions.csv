@@ -1,0 +1,7 @@
+llvm.dbg.declare,0
+llvm.memcpy.p0i8.p0i8.i16,0
+possible_states_inner, 0
+set_i2c_address, 30
+read_register,850
+write_register,650
+transition_to,10

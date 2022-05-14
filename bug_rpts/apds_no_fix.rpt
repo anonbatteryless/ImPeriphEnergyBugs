@@ -1,0 +1,16 @@
+Analyzing atomic block starts:
+==============================================================
+
+Checking atomic block starting on line:520
+	Checking apds_status: WARNING, multiple state definitions
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 508 : Value :0
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 497 : Value :1
+Checking atomic block starting on line:505
+	Checking apds_status: OK, state is 1
+Checking atomic block starting on line:501
+	Checking apds_status: OK, state is 1
+Checking atomic block starting on line:495
+	Checking apds_status: WARNING, multiple state definitions
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 508 : Value :0
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 497 : Value :1
+

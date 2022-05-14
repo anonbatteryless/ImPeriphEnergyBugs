@@ -1,0 +1,31 @@
+Analyzing atomic block starts:
+==============================================================
+
+Checking atomic block starting on line:657
+	Checking imu_status: OK, state is -1
+	Checking prox_status: OK, state is -1
+Checking atomic block starting on line:653
+	Checking imu_status: WARNING, multiple state definitions
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 129 : Value :-1
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 144 : Value :1
+	Checking prox_status: WARNING, multiple state definitions
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 130 : Value :-1
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 589 : Value :1
+Checking atomic block starting on line:616
+	Checking imu_status: WARNING, multiple state definitions
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 129 : Value :-1
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 144 : Value :1
+	Checking prox_status: WARNING, multiple state definitions
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 130 : Value :-1
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 589 : Value :1
+Checking atomic block starting on line:598
+	Checking imu_status: WARNING, multiple state definitions
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 129 : Value :-1
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 144 : Value :1
+	Checking prox_status: WARNING, multiple state definitions
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 130 : Value :-1
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 589 : Value :1
+Checking atomic block starting on line:587
+	Checking imu_status: OK, state is -1
+	Checking prox_status: OK, state is -1
+

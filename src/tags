@@ -1,0 +1,527 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/a3c87ab5/
+ACCEL_DOWNSAMPLE_FACTOR	main_app_space.c	/^#define ACCEL_DOWNSAMPLE_FACTOR /;"	d	file:
+ACCEL_DOWNSAMPLE_FACTOR	main_vibration.c	/^#define ACCEL_DOWNSAMPLE_FACTOR /;"	d	file:
+ACCEL_DOWNSAMPLE_FACTOR	pack_funcs.c	/^#define ACCEL_DOWNSAMPLE_FACTOR /;"	d	file:
+ACCEL_MAX	main_app_space.c	/^#define ACCEL_MAX /;"	d	file:
+ACCEL_MAX	main_vibration.c	/^#define ACCEL_MAX /;"	d	file:
+ACCEL_MAX	pack_funcs.c	/^#define ACCEL_MAX /;"	d	file:
+ACCEL_MIN	main_app_space.c	/^#define ACCEL_MIN /;"	d	file:
+ACCEL_MIN	main_vibration.c	/^#define ACCEL_MIN /;"	d	file:
+ACCEL_MIN	pack_funcs.c	/^#define ACCEL_MIN /;"	d	file:
+BASELINE	main_vibration.c	/^#define BASELINE$/;"	d	file:
+BIT_FLIP	harness.h	/^#define BIT_FLIP(/;"	d
+BIT_FLIP	main_particle.c	/^#define BIT_FLIP(/;"	d	file:
+DIAG_ARROW	align_funcs.c	/^#define DIAG_ARROW /;"	d	file:
+DRIVER	harness.h	/^#define DRIVER$/;"	d
+DRIVER	main_app_space.c	/^#define DRIVER$/;"	d	file:
+DRIVER	main_particle.c	/^#define DRIVER$/;"	d	file:
+DRIVER	main_vibration.c	/^#define DRIVER$/;"	d	file:
+ENABLE_GYRO	main_vibration.c	/^#define ENABLE_GYRO$/;"	d	file:
+FIELD_INIT_msg_self_avg	main_vibration.c	/^#define FIELD_INIT_msg_self_avg /;"	d	file:
+FIELD_INIT_msg_self_index	main_app_space.c	/^#define FIELD_INIT_msg_self_index /;"	d	file:
+FIELD_INIT_msg_self_row	main_vibration.c	/^#define FIELD_INIT_msg_self_row /;"	d	file:
+FIELD_INIT_msg_self_samp	main_vibration.c	/^#define FIELD_INIT_msg_self_samp /;"	d	file:
+FIELD_INIT_msg_self_sample_gyro	main_vibration.c	/^#define FIELD_INIT_msg_self_sample_gyro /;"	d	file:
+FIELD_INIT_msg_self_sample_temp	main_vibration.c	/^#define FIELD_INIT_msg_self_sample_temp /;"	d	file:
+FIELD_INIT_msg_self_sample_windows	main_app_space.c	/^#define FIELD_INIT_msg_self_sample_windows /;"	d	file:
+FIFO	main_particle.c	/^#define FIFO(/;"	d	file:
+FIFO_SIZE	main_particle.c	/^#define FIFO_SIZE /;"	d	file:
+FREQkHz	main_particle.c	/^#define FREQkHz /;"	d	file:
+FULL_CNT	main_particle.c	/^#define FULL_CNT /;"	d	file:
+FUNC	main.c	/^#define FUNC /;"	d	file:
+FUNC	main_sensors.c	/^#define FUNC /;"	d	file:
+FUNC	main_sensors_jit.c	/^#define FUNC /;"	d	file:
+FUNC_UT	main.c	/^#define FUNC_UT(/;"	d	file:
+FUNC_UT	main_sensors.c	/^#define FUNC_UT(/;"	d	file:
+FUNC_UT	main_sensors_jit.c	/^#define FUNC_UT(/;"	d	file:
+GET_EMPTY_FIFO	main_particle.c	/^#define GET_EMPTY_FIFO(/;"	d	file:
+GYRO_DOWNSAMPLE_FACTOR	main_app_space.c	/^#define GYRO_DOWNSAMPLE_FACTOR /;"	d	file:
+GYRO_DOWNSAMPLE_FACTOR	main_vibration.c	/^#define GYRO_DOWNSAMPLE_FACTOR /;"	d	file:
+GYRO_DOWNSAMPLE_FACTOR	pack_funcs.c	/^#define GYRO_DOWNSAMPLE_FACTOR /;"	d	file:
+GYRO_MAX	main_app_space.c	/^#define GYRO_MAX /;"	d	file:
+GYRO_MAX	main_vibration.c	/^#define GYRO_MAX /;"	d	file:
+GYRO_MAX	pack_funcs.c	/^#define GYRO_MAX /;"	d	file:
+GYRO_MIN	main_app_space.c	/^#define GYRO_MIN /;"	d	file:
+GYRO_MIN	main_vibration.c	/^#define GYRO_MIN /;"	d	file:
+GYRO_MIN	pack_funcs.c	/^#define GYRO_MIN /;"	d	file:
+HIGHPERF_MASK	harness.h	/^#define HIGHPERF_MASK /;"	d
+HIGHPERF_MASK	main_micro_benchmark.c	/^#define HIGHPERF_MASK /;"	d	file:
+INPUTS_UT	main.c	/^#define INPUTS_UT /;"	d	file:
+INPUTS_UT	main_sensors.c	/^#define INPUTS_UT /;"	d	file:
+INPUTS_UT	main_sensors_jit.c	/^#define INPUTS_UT /;"	d	file:
+ITER	main_micro_benchmark.c	/^__nv unsigned long ITER = ITER_START;$/;"	v	typeref:typename:__nv unsigned long
+ITER_START	main_micro_benchmark.c	/^#define ITER_START /;"	d	file:
+LEFT_ARROW	align_funcs.c	/^#define LEFT_ARROW /;"	d	file:
+MAG_DOWNSAMPLE_FACTOR	main_app_space.c	/^#define MAG_DOWNSAMPLE_FACTOR /;"	d	file:
+MAG_DOWNSAMPLE_FACTOR	pack_funcs.c	/^#define MAG_DOWNSAMPLE_FACTOR /;"	d	file:
+NOT_FULL_SCALE_FACTOR_ACCEL	main_app_space.c	/^#define NOT_FULL_SCALE_FACTOR_ACCEL /;"	d	file:
+NOT_FULL_SCALE_FACTOR_ACCEL	main_vibration.c	/^#define NOT_FULL_SCALE_FACTOR_ACCEL /;"	d	file:
+NOT_FULL_SCALE_FACTOR_ACCEL	pack_funcs.c	/^#define NOT_FULL_SCALE_FACTOR_ACCEL /;"	d	file:
+NOT_FULL_SCALE_FACTOR_GYRO	main_app_space.c	/^#define NOT_FULL_SCALE_FACTOR_GYRO /;"	d	file:
+NOT_FULL_SCALE_FACTOR_GYRO	main_vibration.c	/^#define NOT_FULL_SCALE_FACTOR_GYRO /;"	d	file:
+NOT_FULL_SCALE_FACTOR_GYRO	pack_funcs.c	/^#define NOT_FULL_SCALE_FACTOR_GYRO /;"	d	file:
+NOT_FULL_SCALE_FACTOR_MAG	main_app_space.c	/^#define NOT_FULL_SCALE_FACTOR_MAG /;"	d	file:
+NOT_FULL_SCALE_FACTOR_MAG	pack_funcs.c	/^#define NOT_FULL_SCALE_FACTOR_MAG /;"	d	file:
+NO_PERIPH	main_app_space.c	/^#define NO_PERIPH$/;"	d	file:
+NO_PERIPH	main_particle.c	/^#define NO_PERIPH$/;"	d	file:
+NO_PERIPH	main_vibration.c	/^#define NO_PERIPH$/;"	d	file:
+NUM_ELEM	main_vibration.c	/^#define NUM_ELEM /;"	d	file:
+NUM_EXTRA_SAMPS	main_vibration.c	/^#define NUM_EXTRA_SAMPS /;"	d	file:
+NUM_P	main_particle.c	/^#define NUM_P /;"	d	file:
+NUM_ROWS	main_vibration.c	/^#define NUM_ROWS /;"	d	file:
+NUM_TRIALS	main.c	/^#define NUM_TRIALS /;"	d	file:
+NUM_TRIALS	main_sensors.c	/^#define NUM_TRIALS /;"	d	file:
+NUM_TRIALS	main_sensors_jit.c	/^#define NUM_TRIALS /;"	d	file:
+NUM_WINDOWS	main_app_space.c	/^#define NUM_WINDOWS /;"	d	file:
+NUM_WINDOWS	main_vibration.c	/^#define NUM_WINDOWS /;"	d	file:
+NUM_WINDOWS	pack_funcs.h	/^#define NUM_WINDOWS /;"	d
+PARAM	resample_funcs.h	/^#define PARAM /;"	d
+PERF_TEST	main_app_space.c	/^#define PERF_TEST$/;"	d	file:
+PERF_TEST	main_particle.c	/^#define PERF_TEST$/;"	d	file:
+PERF_TEST	main_vibration.c	/^#define PERF_TEST$/;"	d	file:
+PKT_FIELD_ACCEL_BITS	main_app_space.c	/^#define PKT_FIELD_ACCEL_BITS /;"	d	file:
+PKT_FIELD_ACCEL_BITS	main_vibration.c	/^#define PKT_FIELD_ACCEL_BITS /;"	d	file:
+PKT_FIELD_ACCEL_BITS	pack_funcs.c	/^#define PKT_FIELD_ACCEL_BITS /;"	d	file:
+PKT_FIELD_GYRO_BITS	main_app_space.c	/^#define PKT_FIELD_GYRO_BITS /;"	d	file:
+PKT_FIELD_GYRO_BITS	main_vibration.c	/^#define PKT_FIELD_GYRO_BITS /;"	d	file:
+PKT_FIELD_GYRO_BITS	pack_funcs.c	/^#define PKT_FIELD_GYRO_BITS /;"	d	file:
+PKT_FIELD_MAG_BITS	main_app_space.c	/^#define PKT_FIELD_MAG_BITS /;"	d	file:
+PKT_FIELD_MAG_BITS	pack_funcs.c	/^#define PKT_FIELD_MAG_BITS /;"	d	file:
+PKT_NUM_WINDOWS	main_app_space.c	/^#define PKT_NUM_WINDOWS /;"	d	file:
+PKT_NUM_WINDOWS	main_vibration.c	/^#define PKT_NUM_WINDOWS /;"	d	file:
+PKT_NUM_WINDOWS	pack_funcs.h	/^#define PKT_NUM_WINDOWS /;"	d
+POP_FIFO	main_particle.c	/^#define POP_FIFO(/;"	d	file:
+PRINTF	main_particle.c	/^#define PRINTF(/;"	d	file:
+PUSH_FIFO	main_particle.c	/^#define	PUSH_FIFO(/;"	d	file:
+RATE	harness.h	/^	#define RATE /;"	d
+RATE	main_app_space.c	/^#define RATE /;"	d	file:
+RATE	main_particle.c	/^#define RATE /;"	d	file:
+RATE	main_vibration.c	/^#define RATE /;"	d	file:
+REGISTER	harness.h	/^#define REGISTER(/;"	d
+REGISTER	main_app_space.c	/^#define REGISTER(/;"	d	file:
+REGISTER	main_particle.c	/^#define REGISTER(/;"	d	file:
+REGISTER	main_vibration.c	/^#define REGISTER(/;"	d	file:
+RESTORE	main_app_space.c	/^#define RESTORE(/;"	d	file:
+RESTORE	main_particle.c	/^#define RESTORE(/;"	d	file:
+RESTORE	main_vibration.c	/^#define RESTORE(/;"	d	file:
+ROTATE_4X	main_particle.c	/^#define ROTATE_4X /;"	d	file:
+RUN_CHECK	main.c	/^#define RUN_CHECK(/;"	d	file:
+RUN_CHECK	main_sensors.c	/^#define RUN_CHECK(/;"	d	file:
+RUN_CHECK	main_sensors_jit.c	/^#define RUN_CHECK(/;"	d	file:
+RUN_CLEANUP	main.c	/^#define RUN_CLEANUP(/;"	d	file:
+RUN_CLEANUP	main_sensors.c	/^#define RUN_CLEANUP(/;"	d	file:
+RUN_CLEANUP	main_sensors_jit.c	/^#define RUN_CLEANUP(/;"	d	file:
+RUN_SETUP	main.c	/^#define RUN_SETUP(/;"	d	file:
+RUN_SETUP	main_sensors.c	/^#define RUN_SETUP(/;"	d	file:
+RUN_SETUP	main_sensors_jit.c	/^#define RUN_SETUP(/;"	d	file:
+SENSOR_BITS_ACCEL	main_app_space.c	/^#define SENSOR_BITS_ACCEL /;"	d	file:
+SENSOR_BITS_ACCEL	main_vibration.c	/^#define SENSOR_BITS_ACCEL /;"	d	file:
+SENSOR_BITS_ACCEL	pack_funcs.c	/^#define SENSOR_BITS_ACCEL /;"	d	file:
+SENSOR_BITS_GYRO	main_app_space.c	/^#define SENSOR_BITS_GYRO /;"	d	file:
+SENSOR_BITS_GYRO	main_vibration.c	/^#define SENSOR_BITS_GYRO /;"	d	file:
+SENSOR_BITS_GYRO	pack_funcs.c	/^#define SENSOR_BITS_GYRO /;"	d	file:
+SENSOR_BITS_MAG	main_app_space.c	/^#define SENSOR_BITS_MAG /;"	d	file:
+SENSOR_BITS_MAG	pack_funcs.c	/^#define SENSOR_BITS_MAG /;"	d	file:
+SENSOR_DISABLE	harness.h	/^#define SENSOR_DISABLE(/;"	d
+SENSOR_INIT	harness.h	/^#define SENSOR_INIT(/;"	d
+SENSOR_MULTI_SAMPLE	harness.h	/^#define SENSOR_MULTI_SAMPLE(/;"	d
+SENSOR_REENABLE	harness.h	/^	#define SENSOR_REENABLE(/;"	d
+SENSOR_REENABLE	harness.h	/^#define SENSOR_REENABLE(/;"	d
+SENSOR_SAMPLE	harness.h	/^#define SENSOR_SAMPLE /;"	d
+SLEEP	main_app_space.c	/^#define SLEEP(/;"	d	file:
+SLEEP	main_particle.c	/^#define SLEEP(/;"	d	file:
+SLEEP	main_vibration.c	/^#define SLEEP(/;"	d	file:
+SLEEP_OPTIMIZATION	main_app_space.c	/^#define SLEEP_OPTIMIZATION$/;"	d	file:
+SLEEP_OPTIMIZATION	main_particle.c	/^#define SLEEP_OPTIMIZATION$/;"	d	file:
+SLEEP_OPTIMIZATION	main_vibration.c	/^#define SLEEP_OPTIMIZATION$/;"	d	file:
+SQRT2	dwt_funcs.c	/^#define SQRT2 /;"	d	file:
+STATE_CHANGE	harness.h	/^#define STATE_CHANGE(/;"	d
+STATE_CHANGE	main_app_space.c	/^#define STATE_CHANGE(/;"	d	file:
+STATE_CHANGE	main_particle.c	/^#define STATE_CHANGE(/;"	d	file:
+STATE_CHANGE	main_vibration.c	/^#define STATE_CHANGE(/;"	d	file:
+TEST_MERGE	main_app_space.c	/^#define TEST_MERGE$/;"	d	file:
+TEST_MERGE	main_vibration.c	/^#define TEST_MERGE$/;"	d	file:
+T_meas	main_vibration.c	/^  T_meas,$/;"	e	enum:_mode_	file:
+UNROLL	main_vibration.c	/^#define UNROLL /;"	d	file:
+UNSAFE_ATOMIC_END	main_app_space.c	/^#define UNSAFE_ATOMIC_END$/;"	d	file:
+UNSAFE_ATOMIC_END	main_vibration.c	/^#define UNSAFE_ATOMIC_END$/;"	d	file:
+UNSAFE_ATOMIC_START	main_app_space.c	/^#define UNSAFE_ATOMIC_START$/;"	d	file:
+UNSAFE_ATOMIC_START	main_vibration.c	/^#define UNSAFE_ATOMIC_START$/;"	d	file:
+UP_ARROW	align_funcs.c	/^#define UP_ARROW /;"	d	file:
+WATCHPOINT	main_app_space.c	/^#define WATCHPOINT(/;"	d	file:
+WATCHPOINT	main_vibration.c	/^#define WATCHPOINT(/;"	d	file:
+WATCHPOINT_BOOT	main_app_space.c	/^#define WATCHPOINT_BOOT /;"	d	file:
+WATCHPOINT_BOOT	main_vibration.c	/^#define WATCHPOINT_BOOT /;"	d	file:
+WATCHPOINT_OUTPUT	main_app_space.c	/^#define WATCHPOINT_OUTPUT /;"	d	file:
+WATCHPOINT_OUTPUT	main_vibration.c	/^#define WATCHPOINT_OUTPUT /;"	d	file:
+WATCHPOINT_SAMPLE	main_app_space.c	/^#define WATCHPOINT_SAMPLE /;"	d	file:
+WATCHPOINT_SAMPLE	main_vibration.c	/^#define WATCHPOINT_SAMPLE /;"	d	file:
+WATCHPOINT_UPDATE_WINDOW_START	main_app_space.c	/^#define WATCHPOINT_UPDATE_WINDOW_START /;"	d	file:
+WATCHPOINT_UPDATE_WINDOW_START	main_vibration.c	/^#define WATCHPOINT_UPDATE_WINDOW_START /;"	d	file:
+WATCHPOINT_WINDOW	main_app_space.c	/^#define WATCHPOINT_WINDOW /;"	d	file:
+WATCHPOINT_WINDOW	main_vibration.c	/^#define WATCHPOINT_WINDOW /;"	d	file:
+WINDOWS_SIZE	main_app_space.c	/^#define WINDOWS_SIZE /;"	d	file:
+WINDOWS_SIZE	main_vibration.c	/^#define WINDOWS_SIZE /;"	d	file:
+WINDOWS_SIZE	pack_funcs.h	/^#define WINDOWS_SIZE /;"	d
+WINDOW_DIV_SHIFT	main_app_space.c	/^#define WINDOW_DIV_SHIFT /;"	d	file:
+WINDOW_DIV_SHIFT	main_vibration.c	/^#define WINDOW_DIV_SHIFT /;"	d	file:
+WINDOW_DIV_SHIFT	pack_funcs.h	/^#define WINDOW_DIV_SHIFT /;"	d
+WINDOW_SIZE	main_app_space.c	/^#define WINDOW_SIZE /;"	d	file:
+WINDOW_SIZE	main_vibration.c	/^#define WINDOW_SIZE /;"	d	file:
+WINDOW_SIZE	pack_funcs.h	/^#define WINDOW_SIZE /;"	d
+WINGET	main_app_space.c	/^#define WINGET(/;"	d	file:
+WINGET	main_vibration.c	/^#define WINGET(/;"	d	file:
+WORKLOAD_CYCLES	main_micro_benchmark.c	/^#define WORKLOAD_CYCLES /;"	d	file:
+X_axis	main_vibration.c	/^  X_axis,$/;"	e	enum:_mode_	file:
+Y_axis	main_vibration.c	/^  Y_axis,$/;"	e	enum:_mode_	file:
+Z_axis	main_vibration.c	/^  Z_axis,$/;"	e	enum:_mode_	file:
+_HARNESS_H_	harness.h	/^#define _HARNESS_H_$/;"	d
+_TEMP_H_	temp_sensor.h	/^#define _TEMP_H_$/;"	d
+__PACK_FUNCS_H_	pack_funcs.h	/^#define __PACK_FUNCS_H_$/;"	d
+__RESAMPLE_FUNCS_H_	resample_funcs.h	/^#define __RESAMPLE_FUNCS_H_$/;"	d
+__anon9011e9c80108	main_vibration.c	/^typedef struct {$/;"	s	file:
+__anon9011e9c80208	main_vibration.c	/^typedef struct __attribute__((packed)) {$/;"	s	file:
+__anon9011e9c80308	main_vibration.c	/^typedef struct __attribute__((packed)) {$/;"	s	file:
+__anonf15888e60108	main_app_space.c	/^typedef struct {$/;"	s	file:
+__anonf15888e60208	main_app_space.c	/^typedef struct {$/;"	s	file:
+__anonf15888e60308	main_app_space.c	/^typedef struct __attribute__((packed)) {$/;"	s	file:
+__anonf15888e60408	main_app_space.c	/^typedef struct __attribute__((packed)) {$/;"	s	file:
+__anonfc622e380108	pack_funcs.h	/^typedef struct __attribute__((packed)) {$/;"	s
+__anonfc622e380208	pack_funcs.h	/^typedef struct __attribute__((packed)) {$/;"	s
+__hifram	main_particle.c	/^#define __hifram /;"	d	file:
+__paca_all_tables	main_app_space.c	/^int* __paca_all_tables[NUM_PERIPHS] = { \/*DL*\/$/;"	v	typeref:typename:int * []
+__paca_all_tables	main_particle.c	/^int* __paca_all_tables[NUM_PERIPHS] = { \/*DL*\/$/;"	v	typeref:typename:int * []
+__paca_all_tables	main_sensors.c	/^int* __paca_all_tables[NUM_PERIPHS] = {$/;"	v	typeref:typename:int * []
+__paca_all_tables	main_sensors_jit.c	/^int* __paca_all_tables[NUM_PERIPHS] = {$/;"	v	typeref:typename:int * []
+__paca_all_tables	main_vibration.c	/^int* __paca_all_tables[NUM_PERIPHS] = { \/*DL*\/$/;"	v	typeref:typename:int * []
+_mode_	main_vibration.c	/^typedef enum _mode_{$/;"	g	file:
+_samp_t	main_app_space.c	/^typedef struct _samp_t{$/;"	s	file:
+_samp_t	main_vibration.c	/^typedef struct _samp_t{$/;"	s	file:
+_samp_t	pack_funcs.h	/^typedef struct _samp_t{$/;"	s
+_temp_c	harness.h	/^uint16_t _temp_c;$/;"	v	typeref:typename:uint16_t
+a_reenable	main_app_space.c	/^void a_reenable() {$/;"	f	typeref:typename:void
+a_reenable	main_particle.c	/^void a_reenable() {$/;"	f	typeref:typename:void
+accel	calc_weights_joint_funcs.c	/^__nv float accel;$/;"	v	typeref:typename:__nv float
+accel_cos	calc_weights_joint_funcs.c	/^__nv float accel_cos[73] =$/;"	v	typeref:typename:__nv float[73]
+accel_cos	calc_weights_single_funcs.c	/^__nv float accel_cos[73] =$/;"	v	typeref:typename:__nv float[73]
+accel_cos	main_particle.c	/^__hifram float accel_cos[73] =$/;"	v	typeref:typename:__hifram float[73]
+accel_cos	move_funcs.c	/^__nv float accel_cos[73] =$/;"	v	typeref:typename:__nv float[73]
+accel_cos	resample_funcs.c	/^__nv float accel_cos[73] =$/;"	v	typeref:typename:__nv float[73]
+accel_init	main_app_space.c	/^void DRIVER accel_init() {$/;"	f	typeref:typename:void DRIVER
+accel_init	main_particle.c	/^void DRIVER accel_init() {$/;"	f	typeref:typename:void DRIVER
+align	align_funcs.c	/^void align(int mat_dim,mat_t *src1, mat_t *src2, mat_t *dest, mat_t *inter){$/;"	f	typeref:typename:void
+align_check	align_funcs.c	/^void align_check(void) {$/;"	f	typeref:typename:void
+align_data	align_funcs.c	/^void align_data(float (*sense)()) {$/;"	f	typeref:typename:void
+align_init	align_funcs.c	/^void align_init(void) {$/;"	f	typeref:typename:void
+align_short_data	align_funcs.c	/^void align_short_data(float (*sense)(),uint16_t sample_len) {$/;"	f	typeref:typename:void
+avg	update_window_start_funcs.c	/^samp_t avg;$/;"	v	typeref:typename:samp_t
+avg_mode_t	main_vibration.c	/^} avg_mode_t;$/;"	t	typeref:enum:_mode_	file:
+ax	main_app_space.c	/^    int ax:4;$/;"	m	struct:__anonf15888e60308	typeref:typename:int:4	file:
+ax	main_app_space.c	/^  int ax, ay, az;$/;"	m	struct:__anonf15888e60108	typeref:typename:int	file:
+ax	main_app_space.c	/^  int ax;$/;"	m	struct:_samp_t	typeref:typename:int	file:
+ax	main_vibration.c	/^  int ax, ay, az;$/;"	m	struct:__anon9011e9c80108	typeref:typename:int	file:
+ax	pack_funcs.h	/^    int ax:4;$/;"	m	struct:__anonfc622e380108	typeref:typename:int:4
+ax	pack_funcs.h	/^  int ax;$/;"	m	struct:_samp_t	typeref:typename:int
+ay	main_app_space.c	/^    int ay:4;$/;"	m	struct:__anonf15888e60308	typeref:typename:int:4	file:
+ay	main_app_space.c	/^  int ax, ay, az;$/;"	m	struct:__anonf15888e60108	typeref:typename:int	file:
+ay	main_app_space.c	/^  int ay;$/;"	m	struct:_samp_t	typeref:typename:int	file:
+ay	main_vibration.c	/^  int ax, ay, az;$/;"	m	struct:__anon9011e9c80108	typeref:typename:int	file:
+ay	pack_funcs.h	/^    int ay:4;$/;"	m	struct:__anonfc622e380108	typeref:typename:int:4
+ay	pack_funcs.h	/^  int ay;$/;"	m	struct:_samp_t	typeref:typename:int
+az	main_app_space.c	/^    int az:4;$/;"	m	struct:__anonf15888e60308	typeref:typename:int:4	file:
+az	main_app_space.c	/^  int ax, ay, az;$/;"	m	struct:__anonf15888e60108	typeref:typename:int	file:
+az	main_app_space.c	/^  int az;$/;"	m	struct:_samp_t	typeref:typename:int	file:
+az	main_vibration.c	/^  int ax, ay, az;$/;"	m	struct:__anon9011e9c80108	typeref:typename:int	file:
+az	pack_funcs.h	/^    int az:4;$/;"	m	struct:__anonfc622e380108	typeref:typename:int:4
+az	pack_funcs.h	/^  int az;$/;"	m	struct:_samp_t	typeref:typename:int
+calc_weights_joint_check	calc_weights_joint_funcs.c	/^void calc_weights_joint_check(void) {$/;"	f	typeref:typename:void
+calc_weights_joint_init	calc_weights_joint_funcs.c	/^void calc_weights_joint_init(void) {$/;"	f	typeref:typename:void
+calc_weights_single_check	calc_weights_single_funcs.c	/^void calc_weights_single_check(void) {$/;"	f	typeref:typename:void
+calc_weights_single_init	calc_weights_single_funcs.c	/^void calc_weights_single_init(void) {$/;"	f	typeref:typename:void
+col_t	main_vibration.c	/^typedef uint16_t col_t;$/;"	t	typeref:typename:uint16_t	file:
+count	main_micro_benchmark.c	/^__nv unsigned count = 0;$/;"	v	typeref:typename:__nv unsigned
+cur_ps	calc_weights_joint_funcs.c	/^__nv float cur_ps[PARAM];$/;"	v	typeref:typename:__nv float[]
+cur_ps	calc_weights_single_funcs.c	/^__nv float cur_ps[PARAM];$/;"	v	typeref:typename:__nv float[]
+cur_ps	main_particle.c	/^__hifram float *cur_ps;$/;"	v	typeref:typename:__hifram float *
+cur_ps	move_funcs.c	/^__nv float cur_ps[PARAM];$/;"	v	typeref:typename:__nv float[]
+cur_ps	resample_funcs.c	/^__nv float cur_ps[PARAM];$/;"	v	typeref:typename:__nv float[]
+dconv	dconv_funcs.c	/^void dconv(int mat_dim, mat_t *src, mat_t *dest, mat_t *inter, mat_t *filter) {$/;"	f	typeref:typename:void
+dconv_check	dconv_funcs.c	/^void dconv_check(void) {$/;"	f	typeref:typename:void
+dconv_data	dconv_funcs.c	/^void dconv_data(float(*sense)()) {$/;"	f	typeref:typename:void
+dconv_init	dconv_funcs.c	/^void dconv_init(void) {$/;"	f	typeref:typename:void
+dconv_short_data	dconv_funcs.c	/^void dconv_short_data(float(*sense)(),uint16_t sample_len) {$/;"	f	typeref:typename:void
+delay_1	main_app_space.c	/^void delay_1() {$/;"	f	typeref:typename:void
+delay_1	main_particle.c	/^void delay_1() {$/;"	f	typeref:typename:void
+delay_1	main_vibration.c	/^void delay_1() {$/;"	f	typeref:typename:void
+delay_2	main_app_space.c	/^void delay_2() {$/;"	f	typeref:typename:void
+delay_2	main_vibration.c	/^void delay_2() {$/;"	f	typeref:typename:void
+delay_3	main_app_space.c	/^void delay_3() {$/;"	f	typeref:typename:void
+delay_3	main_vibration.c	/^void delay_3() {$/;"	f	typeref:typename:void
+dest_imag	main_vibration.c	/^__nv mat_t *dest_imag = &dest_imag_mat;$/;"	v	typeref:typename:__nv mat_t *
+dest_imag_buf	main_vibration.c	/^__nv fixed dest_imag_buf[NUM_ELEM][NUM_ROWS];$/;"	v	typeref:typename:__nv fixed[][]
+dest_imag_mat	main_vibration.c	/^__nv mat_t dest_imag_mat = {.data = dest_imag_buf};$/;"	v	typeref:typename:__nv mat_t
+dest_real	main_vibration.c	/^__nv mat_t *dest_real = &dest_real_mat;$/;"	v	typeref:typename:__nv mat_t *
+dest_real_buf	main_vibration.c	/^__nv fixed dest_real_buf[NUM_ELEM][NUM_ROWS];$/;"	v	typeref:typename:__nv fixed[][]
+dest_real_mat	main_vibration.c	/^__nv mat_t dest_real_mat = {.data = dest_real_buf};$/;"	v	typeref:typename:__nv mat_t
+dmm	dmm_funcs.c	/^void dmm(int mat_dim, mat_t *src, mat_t* dest, mat_t* inter, mat_t *filter) {$/;"	f	typeref:typename:void
+dmm_check	dmm_funcs.c	/^void dmm_check() {$/;"	f	typeref:typename:void
+dmm_data	dmm_funcs.c	/^void dmm_data(float (*sense)()) {$/;"	f	typeref:typename:void
+dmm_init	dmm_funcs.c	/^void dmm_init() {$/;"	f	typeref:typename:void
+dmm_short_data	dmm_funcs.c	/^void dmm_short_data(float (*sense)(),uint16_t sample_len) {$/;"	f	typeref:typename:void
+dmv	dmv_funcs.c	/^void dmv(int mat_dim, mat_t *src, mat_t *dest, mat_t *inter,mat_t *filter) {$/;"	f	typeref:typename:void
+dmv_check	dmv_funcs.c	/^void dmv_check() {$/;"	f	typeref:typename:void
+dmv_data	dmv_funcs.c	/^void dmv_data(float (*sense)()) {$/;"	f	typeref:typename:void
+dmv_init	dmv_funcs.c	/^void dmv_init() {$/;"	f	typeref:typename:void
+dmv_short_data	dmv_funcs.c	/^void dmv_short_data(float (*sense)(),uint16_t sample_len) {$/;"	f	typeref:typename:void
+dwt	dwt_funcs.c	/^void dwt(int mat_dim, mat_t *src,mat_t *dest, mat_t *inter){$/;"	f	typeref:typename:void
+dwt1d	dwt_funcs.c	/^void dwt1d(fixed *src, fixed *dest,fixed *inter,$/;"	f	typeref:typename:void
+dwt_check	dwt_funcs.c	/^void dwt_check() {$/;"	f	typeref:typename:void
+dwt_data	dwt_funcs.c	/^void dwt_data(float (*sense)()) {$/;"	f	typeref:typename:void
+dwt_init	dwt_funcs.c	/^void dwt_init() {$/;"	f	typeref:typename:void
+dwt_short_data	dwt_funcs.c	/^void dwt_short_data(float (*sense)(),uint16_t sample_len) {$/;"	f	typeref:typename:void
+event_accel	main_particle.c	/^void DRIVER event_accel()$/;"	f	typeref:typename:void DRIVER
+event_photo	main_particle.c	/^void DRIVER event_photo()$/;"	f	typeref:typename:void DRIVER
+event_tx	main_particle.c	/^void event_tx()$/;"	f	typeref:typename:void
+fxl_2nd_init	main_app_space.c	/^void fxl_2nd_init() {$/;"	f	typeref:typename:void
+fxl_2nd_init	main_vibration.c	/^void fxl_2nd_init() {$/;"	f	typeref:typename:void
+g_disable	harness.h	/^void g_disable() {$/;"	f	typeref:typename:void
+g_disable	main_vibration.c	/^void g_disable() {$/;"	f	typeref:typename:void
+g_reenable	harness.h	/^void g_reenable() {$/;"	f	typeref:typename:void
+g_reenable	main_vibration.c	/^void g_reenable() {$/;"	f	typeref:typename:void
+gx	main_app_space.c	/^    int gx:4;$/;"	m	struct:__anonf15888e60308	typeref:typename:int:4	file:
+gx	main_app_space.c	/^  int gx, gy, gz;$/;"	m	struct:__anonf15888e60108	typeref:typename:int	file:
+gx	main_app_space.c	/^  int gx;$/;"	m	struct:_samp_t	typeref:typename:int	file:
+gx	main_vibration.c	/^    int gx:4;$/;"	m	struct:__anon9011e9c80208	typeref:typename:int:4	file:
+gx	main_vibration.c	/^  float gx;$/;"	m	struct:_samp_t	typeref:typename:float	file:
+gx	main_vibration.c	/^  int gx, gy, gz;$/;"	m	struct:__anon9011e9c80108	typeref:typename:int	file:
+gx	pack_funcs.h	/^    int gx:4;$/;"	m	struct:__anonfc622e380108	typeref:typename:int:4
+gx	pack_funcs.h	/^  int gx;$/;"	m	struct:_samp_t	typeref:typename:int
+gy	main_app_space.c	/^    int gy:4;$/;"	m	struct:__anonf15888e60308	typeref:typename:int:4	file:
+gy	main_app_space.c	/^  int gx, gy, gz;$/;"	m	struct:__anonf15888e60108	typeref:typename:int	file:
+gy	main_app_space.c	/^  int gy;$/;"	m	struct:_samp_t	typeref:typename:int	file:
+gy	main_vibration.c	/^    int gy:4;$/;"	m	struct:__anon9011e9c80208	typeref:typename:int:4	file:
+gy	main_vibration.c	/^  float gy;$/;"	m	struct:_samp_t	typeref:typename:float	file:
+gy	main_vibration.c	/^  int gx, gy, gz;$/;"	m	struct:__anon9011e9c80108	typeref:typename:int	file:
+gy	pack_funcs.h	/^    int gy:4;$/;"	m	struct:__anonfc622e380108	typeref:typename:int:4
+gy	pack_funcs.h	/^  int gy;$/;"	m	struct:_samp_t	typeref:typename:int
+gyro_init	main_vibration.c	/^void DRIVER gyro_init() {$/;"	f	typeref:typename:void DRIVER
+gyro_samples	main_vibration.c	/^__nv samp_t gyro_samples[NUM_EXTRA_SAMPS];$/;"	v	typeref:typename:__nv samp_t[]
+gz	main_app_space.c	/^    int gz:4;$/;"	m	struct:__anonf15888e60308	typeref:typename:int:4	file:
+gz	main_app_space.c	/^  int gx, gy, gz;$/;"	m	struct:__anonf15888e60108	typeref:typename:int	file:
+gz	main_app_space.c	/^  int gz;$/;"	m	struct:_samp_t	typeref:typename:int	file:
+gz	main_vibration.c	/^    int gz:4;$/;"	m	struct:__anon9011e9c80208	typeref:typename:int:4	file:
+gz	main_vibration.c	/^  float gz;$/;"	m	struct:_samp_t	typeref:typename:float	file:
+gz	main_vibration.c	/^  int gx, gy, gz;$/;"	m	struct:__anon9011e9c80108	typeref:typename:int	file:
+gz	pack_funcs.h	/^    int gz:4;$/;"	m	struct:__anonfc622e380108	typeref:typename:int:4
+gz	pack_funcs.h	/^  int gz;$/;"	m	struct:_samp_t	typeref:typename:int
+harmonic1	main_vibration.c	/^    int harmonic1:8;$/;"	m	struct:__anon9011e9c80208	typeref:typename:int:8	file:
+harmonic2	main_vibration.c	/^    int harmonic2:8;$/;"	m	struct:__anon9011e9c80208	typeref:typename:int:8	file:
+init	main_app_space.c	/^void init() {$/;"	f	typeref:typename:void
+init	main_micro_benchmark.c	/^void init() {$/;"	f	typeref:typename:void
+init	main_vibration.c	/^void init() {$/;"	f	typeref:typename:void
+inits	main_app_space.c	/^__nv pacarana_cfg_t inits[4] = {$/;"	v	typeref:typename:__nv pacarana_cfg_t[4]
+inits	main_app_space.c	/^__nv pacarana_cfg_t inits[9] = {$/;"	v	typeref:typename:__nv pacarana_cfg_t[9]
+inits	main_particle.c	/^__nv pacarana_cfg_t inits[4] = {$/;"	v	typeref:typename:__nv pacarana_cfg_t[4]
+inits	main_particle.c	/^__nv pacarana_cfg_t inits[6] = {$/;"	v	typeref:typename:__nv pacarana_cfg_t[6]
+inits	main_vibration.c	/^__nv pacarana_cfg_t inits[4] = {$/;"	v	typeref:typename:__nv pacarana_cfg_t[4]
+inits	main_vibration.c	/^__nv pacarana_cfg_t inits[9] = {$/;"	v	typeref:typename:__nv pacarana_cfg_t[9]
+lsm_ok	main_app_space.c	/^static bool lsm_ok;$/;"	v	typeref:typename:bool	file:
+lsm_ok	main_vibration.c	/^static bool lsm_ok;$/;"	v	typeref:typename:bool	file:
+lsm_samp	main_app_space.c	/^static lsm_t lsm_samp;$/;"	v	typeref:typename:lsm_t	file:
+lsm_samp	main_vibration.c	/^static lsm_t lsm_samp;$/;"	v	typeref:typename:lsm_t	file:
+lsm_t	main_app_space.c	/^} lsm_t;$/;"	t	typeref:struct:__anonf15888e60108	file:
+lsm_t	main_vibration.c	/^} lsm_t;$/;"	t	typeref:struct:__anon9011e9c80108	file:
+mag	main_vibration.c	/^float mag[NUM_ELEM];$/;"	v	typeref:typename:float[]
+mag_h1	main_vibration.c	/^    int mag_h1:4;$/;"	m	struct:__anon9011e9c80208	typeref:typename:int:4	file:
+mag_h2	main_vibration.c	/^    int mag_h2:4;$/;"	m	struct:__anon9011e9c80208	typeref:typename:int:4	file:
+mag_max	main_vibration.c	/^void mag_max(int num_elem, float *mag, float *max, int *max_ind) {$/;"	f	typeref:typename:void
+mag_n	main_vibration.c	/^    int mag_n:4;$/;"	m	struct:__anon9011e9c80208	typeref:typename:int:4	file:
+mag_ok	main_app_space.c	/^static bool mag_ok;$/;"	v	typeref:typename:bool	file:
+mag_ok	main_vibration.c	/^static bool mag_ok;$/;"	v	typeref:typename:bool	file:
+mag_row	main_vibration.c	/^void mag_row(int num_elem, mat_t *real, mat_t *imag, float *mag, int row) {$/;"	f	typeref:typename:void
+magnet_t	main_app_space.c	/^} magnet_t;$/;"	t	typeref:struct:__anonf15888e60208	file:
+main	main.c	/^int main(void) {$/;"	f	typeref:typename:int
+main	main_particle.c	/^int DRIVER main(void)$/;"	f	typeref:typename:int DRIVER
+main	main_sensors.c	/^int DRIVER main(void) {$/;"	f	typeref:typename:int DRIVER
+main	main_sensors_jit.c	/^int DRIVER main(void) {$/;"	f	typeref:typename:int DRIVER
+mat_ptr_t	main_vibration.c	/^typedef mat_t* mat_ptr_t;$/;"	t	typeref:typename:mat_t *	file:
+merged_func	main_particle.c	/^void merged_func(unsigned param) {$/;"	f	typeref:typename:void
+min	dmm_funcs.c	/^#define min(/;"	d	file:
+min	dmv_funcs.c	/^#define min(/;"	d	file:
+move_check	move_funcs.c	/^void move_check(void) {$/;"	f	typeref:typename:void
+move_init	move_funcs.c	/^void move_init(void) {$/;"	f	typeref:typename:void
+msg_avg	main_vibration.c	/^struct msg_avg {$/;"	s	file:
+msg_index	main_app_space.c	/^struct msg_index{$/;"	s	file:
+msg_init_samp	main_vibration.c	/^struct msg_init_samp {$/;"	s	file:
+msg_pkt	main_app_space.c	/^struct msg_pkt {$/;"	s	file:
+msg_pkt	main_vibration.c	/^struct msg_pkt {$/;"	s	file:
+msg_row	main_vibration.c	/^struct msg_row {$/;"	s	file:
+msg_sample	main_app_space.c	/^struct msg_sample{$/;"	s	file:
+msg_sample_avg_in	main_app_space.c	/^struct msg_sample_avg_in{$/;"	s	file:
+msg_sample_avg_out	main_app_space.c	/^struct msg_sample_avg_out{$/;"	s	file:
+msg_sample_gyro	main_vibration.c	/^struct msg_sample_gyro {$/;"	s	file:
+msg_sample_temp	main_vibration.c	/^struct msg_sample_temp {$/;"	s	file:
+msg_sample_window	main_app_space.c	/^struct msg_sample_window{$/;"	s	file:
+msg_sample_windows	main_app_space.c	/^struct msg_sample_windows{$/;"	s	file:
+msg_self_avg	main_vibration.c	/^struct msg_self_avg {$/;"	s	file:
+msg_self_index	main_app_space.c	/^struct msg_self_index{$/;"	s	file:
+msg_self_row	main_vibration.c	/^struct msg_self_row {$/;"	s	file:
+msg_self_samp	main_vibration.c	/^struct msg_self_samp {$/;"	s	file:
+msg_self_sample_gyro	main_vibration.c	/^struct msg_self_sample_gyro {$/;"	s	file:
+msg_self_sample_temp	main_vibration.c	/^struct msg_self_sample_temp {$/;"	s	file:
+msg_self_sample_windows	main_app_space.c	/^struct msg_self_sample_windows{$/;"	s	file:
+msg_window_averages	main_app_space.c	/^struct msg_window_averages {$/;"	s	file:
+mx	main_app_space.c	/^    int mx:4;$/;"	m	struct:__anonf15888e60308	typeref:typename:int:4	file:
+mx	main_app_space.c	/^  int mx;$/;"	m	struct:_samp_t	typeref:typename:int	file:
+mx	pack_funcs.h	/^    int mx:4;$/;"	m	struct:__anonfc622e380108	typeref:typename:int:4
+mx	pack_funcs.h	/^  int mx;$/;"	m	struct:_samp_t	typeref:typename:int
+my	main_app_space.c	/^    int my:4;$/;"	m	struct:__anonf15888e60308	typeref:typename:int:4	file:
+my	main_app_space.c	/^  int my;$/;"	m	struct:_samp_t	typeref:typename:int	file:
+my	pack_funcs.h	/^    int my:4;$/;"	m	struct:__anonfc622e380108	typeref:typename:int:4
+my	pack_funcs.h	/^  int my;$/;"	m	struct:_samp_t	typeref:typename:int
+mz	main_app_space.c	/^    int mz:4;$/;"	m	struct:__anonf15888e60308	typeref:typename:int:4	file:
+mz	main_app_space.c	/^  int mz;$/;"	m	struct:_samp_t	typeref:typename:int	file:
+mz	pack_funcs.h	/^    int mz:4;$/;"	m	struct:__anonfc622e380108	typeref:typename:int:4
+mz	pack_funcs.h	/^  int mz;$/;"	m	struct:_samp_t	typeref:typename:int
+natural	main_vibration.c	/^    int natural:8;$/;"	m	struct:__anon9011e9c80208	typeref:typename:int:8	file:
+p_golden	main_particle.c	/^__hifram float p_golden;$/;"	v	typeref:typename:__hifram float
+pack	pack_funcs.c	/^void pack(int n, samp_t *win_avgs, pkt_t *loc_pkt) {$/;"	f	typeref:typename:void
+pack_check	pack_funcs.c	/^void pack_check() {$/;"	f	typeref:typename:void
+pack_init	pack_funcs.c	/^void pack_init(void) {$/;"	f	typeref:typename:void
+pack_op	main_app_space.c	/^void pack_op(int n, samp_t *win_avgs, pkt_t *pkt) {$/;"	f	typeref:typename:void
+pack_op	main_vibration.c	/^void pack_op(int n, samp_t *win_avgs, pkt_t *pkt) {$/;"	f	typeref:typename:void
+partition	sort_funcs.c	/^int16_t partition(fixed *data, int16_t l, int16_t h) {$/;"	f	typeref:typename:int16_t
+photo	calc_weights_joint_funcs.c	/^__nv float photo;$/;"	v	typeref:typename:__nv float
+photo	calc_weights_single_funcs.c	/^__nv float photo;$/;"	v	typeref:typename:__nv float
+photo_field	calc_weights_joint_funcs.c	/^__nv float photo_field[73] =$/;"	v	typeref:typename:__nv float[73]
+photo_field	calc_weights_single_funcs.c	/^__nv float photo_field[73] =$/;"	v	typeref:typename:__nv float[73]
+photo_field	main_particle.c	/^__hifram float photo_field[73] =$/;"	v	typeref:typename:__hifram float[73]
+photo_field	move_funcs.c	/^__nv float photo_field[73] =$/;"	v	typeref:typename:__nv float[73]
+photo_field	resample_funcs.c	/^__nv float photo_field[73] =$/;"	v	typeref:typename:__nv float[73]
+pkt	pack_funcs.c	/^pkt_t pkt;$/;"	v	typeref:typename:pkt_t
+pkt_t	main_app_space.c	/^} pkt_t;$/;"	t	typeref:struct:__anonf15888e60408	file:
+pkt_t	main_vibration.c	/^} pkt_t;$/;"	t	typeref:struct:__anon9011e9c80308	file:
+pkt_t	pack_funcs.h	/^} pkt_t;$/;"	t	typeref:struct:__anonfc622e380208
+pkt_win_t	main_app_space.c	/^} pkt_win_t;$/;"	t	typeref:struct:__anonf15888e60308	file:
+pkt_win_t	main_vibration.c	/^} pkt_win_t;$/;"	t	typeref:struct:__anon9011e9c80208	file:
+pkt_win_t	pack_funcs.h	/^} pkt_win_t;$/;"	t	typeref:struct:__anonfc622e380108
+pkt_window_indexes	main_app_space.c	/^static const unsigned pkt_window_indexes[] = { 0, NUM_WINDOWS - 1 };$/;"	v	typeref:typename:const unsigned[]	file:
+pkt_window_indexes	main_vibration.c	/^static const unsigned pkt_window_indexes[] = { 0, NUM_WINDOWS - 1 };$/;"	v	typeref:typename:const unsigned[]	file:
+pre_init	main_app_space.c	/^void pre_init() {$/;"	f	typeref:typename:void
+pre_init	main_vibration.c	/^void pre_init() {$/;"	f	typeref:typename:void
+prev_ps	calc_weights_joint_funcs.c	/^__nv float prev_ps[PARAM];$/;"	v	typeref:typename:__nv float[]
+prev_ps	calc_weights_single_funcs.c	/^__nv float prev_ps[PARAM];$/;"	v	typeref:typename:__nv float[]
+prev_ps	main_particle.c	/^__hifram float *prev_ps;$/;"	v	typeref:typename:__hifram float *
+prev_ps	move_funcs.c	/^__nv float prev_ps[PARAM];$/;"	v	typeref:typename:__nv float[]
+prev_ps	resample_funcs.c	/^__nv float prev_ps[PARAM];$/;"	v	typeref:typename:__nv float[]
+print_float_loc	main_vibration.c	/^void print_float_loc(float f)$/;"	f	typeref:typename:void
+print_sample	main_app_space.c	/^void print_sample(samp_t *s) {$/;"	f	typeref:typename:void
+print_sample	update_window_start_funcs.c	/^void print_sample(samp_t *s) {$/;"	f	typeref:typename:void
+ps	main_particle.c	/^__hifram float ps[NUM_P];$/;"	v	typeref:typename:__hifram float[]
+ps2	main_particle.c	/^__hifram float ps2[NUM_P];$/;"	v	typeref:typename:__hifram float[]
+pwr_configs	main_app_space.c	/^capybara_task_cfg_t pwr_configs[3] = {$/;"	v	typeref:typename:capybara_task_cfg_t[3]
+pwr_configs	main_particle.c	/^capybara_task_cfg_t pwr_configs[3] = {$/;"	v	typeref:typename:capybara_task_cfg_t[3]
+pwr_configs	main_vibration.c	/^capybara_task_cfg_t pwr_configs[3] = {$/;"	v	typeref:typename:capybara_task_cfg_t[3]
+ran_before	main_particle.c	/^unsigned ran_before = 0;$/;"	v	typeref:typename:unsigned
+read_mag	main_app_space.c	/^void read_mag(int *x,$/;"	f	typeref:typename:void
+resample_check	resample_funcs.c	/^void resample_check(void) {$/;"	f	typeref:typename:void
+resample_init	resample_funcs.c	/^void resample_init(void) {$/;"	f	typeref:typename:void
+row_t	main_vibration.c	/^typedef uint16_t row_t;$/;"	t	typeref:typename:uint16_t	file:
+samp_t	main_app_space.c	/^} samp_t;$/;"	t	typeref:struct:_samp_t	file:
+samp_t	main_vibration.c	/^} samp_t;$/;"	t	typeref:struct:_samp_t	file:
+samp_t	pack_funcs.h	/^} samp_t;$/;"	t	typeref:struct:_samp_t
+samples	update_window_start_funcs.c	/^samp_t samples[WINDOW_SIZE];$/;"	v	typeref:typename:samp_t[]
+scale_lsm_sample	main_app_space.c	/^static int scale_lsm_sample(int v, int factor, int min, int max)$/;"	f	typeref:typename:int	file:
+scale_lsm_sample	main_vibration.c	/^static int scale_lsm_sample(int v, int factor, int min, int max)$/;"	f	typeref:typename:int	file:
+scale_lsm_sample	pack_funcs.c	/^static int scale_lsm_sample(int v, int factor, int min, int max)$/;"	f	typeref:typename:int	file:
+scale_mag_sample	main_app_space.c	/^static int scale_mag_sample(int v, int neg_edge, int pos_edge, int overflow)$/;"	f	typeref:typename:int	file:
+scale_mag_sample	pack_funcs.c	/^static int scale_mag_sample(int v, int neg_edge, int pos_edge, int overflow)$/;"	f	typeref:typename:int	file:
+sconv	sconv_funcs.c	/^void sconv(mat_t *src, mat_t *dest, mat_t *inter, mat_t *filter) {$/;"	f	typeref:typename:void
+sconv_check	sconv_funcs.c	/^void sconv_check() {$/;"	f	typeref:typename:void
+sconv_data	sconv_funcs.c	/^void sconv_data(float (*sense)()) {$/;"	f	typeref:typename:void
+sconv_init	sconv_funcs.c	/^void sconv_init() {$/;"	f	typeref:typename:void
+smm	smm_funcs.c	/^void smm(mat_t *src,mat_t *dest,mat_t *inter, mat_t *bsrc) {$/;"	f	typeref:typename:void
+smm_check	smm_funcs.c	/^void smm_check() {$/;"	f	typeref:typename:void
+smm_init	smm_funcs.c	/^void smm_init() {$/;"	f	typeref:typename:void
+smv	smv_funcs.c	/^void smv(int mat_dim, mat_t *src, mat_t *dest, mat_t *filter) {$/;"	f	typeref:typename:void
+smv_check	smv_funcs.c	/^void smv_check() {$/;"	f	typeref:typename:void
+smv_data	smv_funcs.c	/^void smv_data(float (*sense)()) {$/;"	f	typeref:typename:void
+smv_init	smv_funcs.c	/^void smv_init() {$/;"	f	typeref:typename:void
+smv_short_data	smv_funcs.c	/^void smv_short_data(float (*sense)(),uint16_t sample_len) {$/;"	f	typeref:typename:void
+sort	sort_funcs.c	/^void sort(int mat_dim, mat_t *src, mat_t *dest, mat_t *inter) {$/;"	f	typeref:typename:void
+sort_check	sort_funcs.c	/^void sort_check() {$/;"	f	typeref:typename:void
+sort_data	sort_funcs.c	/^void sort_data(float (*sense)()) {$/;"	f	typeref:typename:void
+sort_init	sort_funcs.c	/^void sort_init() {$/;"	f	typeref:typename:void
+sort_short_data	sort_funcs.c	/^void sort_short_data(float (*sense)(),uint16_t sample_len) {$/;"	f	typeref:typename:void
+src_real	main_vibration.c	/^__nv mat_t *src_real  = &src_real_matZ;$/;"	v	typeref:typename:__nv mat_t *
+src_real_bufZ	main_vibration.c	/^__nv fixed src_real_bufZ[NUM_ELEM][NUM_ROWS];$/;"	v	typeref:typename:__nv fixed[][]
+src_real_matZ	main_vibration.c	/^__nv mat_t src_real_matZ = {.data = src_real_bufZ};$/;"	v	typeref:typename:__nv mat_t
+stored_y	main_micro_benchmark.c	/^__nv int stored_y;$/;"	v	typeref:typename:__nv int
+stored_z	main_micro_benchmark.c	/^__nv int stored_z;$/;"	v	typeref:typename:__nv int
+sum	calc_weights_joint_funcs.c	/^float sum;$/;"	v	typeref:typename:float
+sum	calc_weights_single_funcs.c	/^float sum;$/;"	v	typeref:typename:float
+sum	move_funcs.c	/^float sum;$/;"	v	typeref:typename:float
+sum	resample_funcs.c	/^float sum;$/;"	v	typeref:typename:float
+task_average	main_vibration.c	/^void task_average() {$/;"	f	typeref:typename:void
+task_calc	main_micro_benchmark.c	/^void task_calc() {$/;"	f	typeref:typename:void
+task_end	main_micro_benchmark.c	/^void task_end() {$/;"	f	typeref:typename:void
+task_extra	main_app_space.c	/^void task_extra() {$/;"	f	typeref:typename:void
+task_extra	main_vibration.c	/^void task_extra() {$/;"	f	typeref:typename:void
+task_fft	main_vibration.c	/^void task_fft() {$/;"	f	typeref:typename:void
+task_init	main_app_space.c	/^void DRIVER task_init()$/;"	f	typeref:typename:void DRIVER
+task_init	main_vibration.c	/^void task_init()$/;"	f	typeref:typename:void
+task_magnitude	main_vibration.c	/^void task_magnitude() {$/;"	f	typeref:typename:void
+task_measure	main_micro_benchmark.c	/^void task_measure() {$/;"	f	typeref:typename:void
+task_output	main_app_space.c	/^void task_output() {$/;"	f	typeref:typename:void
+task_output	main_vibration.c	/^void task_output() {$/;"	f	typeref:typename:void
+task_pack	main_app_space.c	/^void task_pack() {$/;"	f	typeref:typename:void
+task_pack	main_vibration.c	/^void task_pack() {$/;"	f	typeref:typename:void
+task_profile	main_micro_benchmark.c	/^void task_profile() {$/;"	f	typeref:typename:void
+task_sample	main_app_space.c	/^void DRIVER task_sample(){$/;"	f	typeref:typename:void DRIVER
+task_sample	main_vibration.c	/^void DRIVER task_sample(){$/;"	f	typeref:typename:void DRIVER
+task_sample_gyro	main_vibration.c	/^void task_sample_gyro() {$/;"	f	typeref:typename:void
+task_sample_temp	main_vibration.c	/^void task_sample_temp() {$/;"	f	typeref:typename:void
+task_send	main_app_space.c	/^void task_send() {$/;"	f	typeref:typename:void
+task_send	main_vibration.c	/^void task_send() {$/;"	f	typeref:typename:void
+task_update_window	main_app_space.c	/^void task_update_window(){$/;"	f	typeref:typename:void
+task_update_window_start	main_app_space.c	/^void task_update_window_start() {$/;"	f	typeref:typename:void
+task_window	main_app_space.c	/^void task_window(){$/;"	f	typeref:typename:void
+temp	main_app_space.c	/^    int temp:8;$/;"	m	struct:__anonf15888e60308	typeref:typename:int:8	file:
+temp	main_app_space.c	/^  int temp;$/;"	m	struct:_samp_t	typeref:typename:int	file:
+temp	main_vibration.c	/^    int temp:8;$/;"	m	struct:__anon9011e9c80208	typeref:typename:int:8	file:
+temp	main_vibration.c	/^  float temp;$/;"	m	struct:_samp_t	typeref:typename:float	file:
+temp	pack_funcs.h	/^    int temp:8;$/;"	m	struct:__anonfc622e380108	typeref:typename:int:8
+temp	pack_funcs.h	/^  int temp;$/;"	m	struct:_samp_t	typeref:typename:int
+temp_disable	temp_sensor.c	/^void DRIVER temp_disable() {$/;"	f	typeref:typename:void DRIVER
+temp_init	main_app_space.c	/^void temp_init() {$/;"	f	typeref:typename:void
+temp_init	main_vibration.c	/^void temp_init() {$/;"	f	typeref:typename:void
+temp_read	temp_sensor.c	/^unsigned temp_read() {$/;"	f	typeref:typename:unsigned
+temp_read_and_init	temp_sensor.c	/^float temp_read_and_init() {$/;"	f	typeref:typename:float
+temp_reenable	temp_sensor.c	/^void DRIVER temp_reenable() {$/;"	f	typeref:typename:void DRIVER
+test1	align_funcs.c	/^__nv uint16_t test1[16] = {'G','A','A','C',$/;"	v	typeref:typename:__nv uint16_t[16]
+test2	align_funcs.c	/^__nv uint16_t test2[16] = {'G','C','A','C',$/;"	v	typeref:typename:__nv uint16_t[16]
+test_counter	main_particle.c	/^__nv unsigned test_counter = 0;$/;"	v	typeref:typename:__nv unsigned
+update_window_start	update_window_start_funcs.c	/^void update_window_start(int n,samp_t *windows, samp_t *avg) {$/;"	f	typeref:typename:void
+update_window_start_check	update_window_start_funcs.c	/^void update_window_start_check() {$/;"	f	typeref:typename:void
+update_window_start_init	update_window_start_funcs.c	/^void update_window_start_init() {$/;"	f	typeref:typename:void
+update_window_start_op	main_app_space.c	/^void update_window_start_op(int n,samp_t *windows, samp_t *avg) {$/;"	f	typeref:typename:void
+use_accel	main_particle.c	/^__nv bool use_accel = false;$/;"	v	typeref:typename:__nv bool
+w	calc_weights_joint_funcs.c	/^__nv float w[PARAM];$/;"	v	typeref:typename:__nv float[]
+w	calc_weights_single_funcs.c	/^__nv float w[PARAM];$/;"	v	typeref:typename:__nv float[]
+w	main_particle.c	/^__hifram float w[NUM_P];$/;"	v	typeref:typename:__hifram float[]
+w	move_funcs.c	/^__nv float w[PARAM];$/;"	v	typeref:typename:__nv float[]
+w	resample_funcs.c	/^__nv float w[PARAM];$/;"	v	typeref:typename:__nv float[]
+windows	main_app_space.c	/^    pkt_win_t windows[PKT_NUM_WINDOWS];$/;"	m	struct:__anonf15888e60408	typeref:typename:pkt_win_t[]	file:
+windows	main_vibration.c	/^    pkt_win_t windows[PKT_NUM_WINDOWS];$/;"	m	struct:__anon9011e9c80308	typeref:typename:pkt_win_t[]	file:
+windows	pack_funcs.c	/^samp_t windows[PKT_NUM_WINDOWS];$/;"	v	typeref:typename:samp_t[]
+windows	pack_funcs.h	/^    pkt_win_t windows[PKT_NUM_WINDOWS];$/;"	m	struct:__anonfc622e380208	typeref:typename:pkt_win_t[]
+x	main_app_space.c	/^  int x;$/;"	m	struct:__anonf15888e60208	typeref:typename:int	file:
+y	main_app_space.c	/^  int y;$/;"	m	struct:__anonf15888e60208	typeref:typename:int	file:
+z	main_app_space.c	/^  int z;$/;"	m	struct:__anonf15888e60208	typeref:typename:int	file:

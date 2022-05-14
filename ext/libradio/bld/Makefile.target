@@ -1,0 +1,9 @@
+ifeq ($(TOOLCHAIN),gcc)
+DEPS += libradio
+else
+
+CFLAGS += -I$(LIB_ROOT)/libradio/src/include
+LFLAGS += -L$(LIB_ROOT)/libradio/bld/gcc
+LIBS += -lradio
+
+endif

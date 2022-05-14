@@ -1,0 +1,10 @@
+These are the inputs that will be used by both the pass and the application.
+
+As a result, these files do absolutely no good here!
+
+thresholds.csv is used by the pass so it needs to be moved to the directory
+where the pass will be run (usually something like bld/pacarana-pass/)
+
+<periph>_table.h files need to be moved to a directory where the application can
+find them. E.g. add them to a ./tables directory and then add a -I ./tables to
+the makefile.

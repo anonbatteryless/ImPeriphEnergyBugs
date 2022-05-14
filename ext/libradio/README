@@ -1,0 +1,3 @@
+This is a library that hides the lower level radio code from a programmer. It
+also provides a set of unified API calls regardless of the radio/MCU type and
+configuration.

@@ -1,0 +1,90 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BIT_FLIP	src/include/libpacarana/pacarana.h	251;"	d
+CALL_DRIVER_1	src/include/libpacarana/pacarana.h	100;"	d
+CHKPTLEN	src/include/libpacarana/pacarana.h	112;"	d
+DIRECT	src/include/libpacarana/pacarana.h	108;"	d
+DISABLE	src/include/libpacarana/pacarana.h	139;"	d
+DRIVER	src/include/libpacarana/pacarana.h	73;"	d
+ENABLE	src/include/libpacarana/pacarana.h	143;"	d
+LIB	Makefile	/^LIB = libpacarana$/;"	m
+LIBPACARANA_BIT_FLIP	src/include/libpacarana/pacarana.h	252;"	d
+LIBPACARANA_BREAK_EVENS	src/include/libpacarana/break_evens.h	3;"	d
+LIBPACARANA_FULLY_DYNAMIC	src/include/libpacarana/pacarana.h	12;"	d
+LIBPACARANA_GRAB_START_TIME	src/include/libpacarana/pacarana.h	273;"	d
+LIBPACARANA_GRAB_START_TIME	src/include/libpacarana/pacarana.h	288;"	d
+LIBPACARANA_MULTI_CNT	src/include/libpacarana/pacarana.h	13;"	d
+LIBPACARANA_SEPARATE_PF	src/include/libpacarana/pacarana.h	14;"	d
+LIBPACARANA_START_TIMER	src/include/libpacarana/pacarana.h	261;"	d
+LIBPACARANA_STOP_TIMER	src/include/libpacarana/pacarana.h	264;"	d
+LIBPACARANA_TOGGLES	src/include/libpacarana/pacarana.h	298;"	d
+LIBPACARANA_TOGGLE_POST	src/include/libpacarana/pacarana.h	310;"	d
+LIBPACARANA_TOGGLE_PRE	src/include/libpacarana/pacarana.h	302;"	d
+LIBPACARANA_USES_VECTOR_SIZE	src/include/libpacarana/pacarana.h	239;"	d
+LIBPACARANA_VECTOR_INIT	src/include/libpacarana/uses_vector_init.h	2;"	d
+NO_PERIPH	src/include/libpacarana/pacarana.h	80;"	d
+NUM_FUNCS	src/include/libpacarana/pacarana.h	179;"	d
+NUM_PERIPHS	src/include/libpacarana/pacarana.h	175;"	d
+NUM_STORED_PERIPHS	src/include/libpacarana/pacarana.h	232;"	d
+OBJECTS	Makefile	/^OBJECTS = pacarana.o\\$/;"	m
+PACARANA_INT	src/include/libpacarana/pacarana.h	127;"	d
+PACARANA_INT_END	src/include/libpacarana/pacarana.h	135;"	d
+PACARANA_INT_START	src/include/libpacarana/pacarana.h	131;"	d
+PACA_CFG_ROW	src/include/libpacarana/pacarana.h	199;"	d
+PACA_SET_STATUS_PTRS	src/include/libpacarana/pacarana.h	332;"	d
+PACA_SET_STATUS_PTRS	src/include/libpacarana/pacarana.h	340;"	d
+PACA_SIZE	src/include/libpacarana/pacarana.h	189;"	d
+POSSIBLE_STATES	src/include/libpacarana/pacarana.h	118;"	d
+RC_ROOT	Makefile	/^override SRC_ROOT = ..\/..\/src$/;"	m
+REGISTER	src/include/libpacarana/pacarana.h	87;"	d
+REGISTER	src/include/libpacarana/pacarana.h	93;"	d
+RESTORE	src/include/libpacarana/pacarana.h	156;"	d
+RESTORE	src/include/libpacarana/pacarana.h	167;"	d
+RUN_PACA_SEPARATE_PF	src/include/libpacarana/pacarana.h	336;"	d
+RUN_PACA_SEPARATE_PF	src/include/libpacarana/pacarana.h	342;"	d
+SLEEP	src/include/libpacarana/pacarana.h	150;"	d
+SLEEP	src/include/libpacarana/pacarana.h	162;"	d
+STATE_CHANGE	src/include/libpacarana/pacarana.h	24;"	d
+STATE_CHECK	src/include/libpacarana/pacarana.h	35;"	d
+STATE_CHECK_ALL	src/include/libpacarana/pacarana.h	52;"	d
+STATE_OK	src/include/libpacarana/pacarana.h	65;"	d
+STATE_READ	src/include/libpacarana/pacarana.h	41;"	d
+Timer0_A0_ISR	src/pacarana.c	/^void __attribute ((interrupt(TIMER0_A0_VECTOR))) Timer0_A0_ISR(void)$/;"	f
+USING_PACARANA_INTS	src/include/libpacarana/pacarana.h	123;"	d
+_PACARANA_H_	src/include/libpacarana/pacarana.h	2;"	d
+__paca_active_uses	src/pacarana.c	/^volatile __nv pacarana_active_vect_t __paca_active_uses = 0;\/\/TODO only works for 16 uses$/;"	v
+__paca_break_evens	src/include/libpacarana/break_evens.h	/^uint16_t __paca_break_evens[5][4] = {$/;"	v
+__paca_dummy_func	src/pacarana.c	/^int __paca_dummy_func(int a, int b,...) {$/;"	f
+__paca_global_ovfl	src/pacarana.c	/^volatile __nv uint16_t __paca_global_ovfl = 0; \/\/ Need to carry over power failures$/;"	v
+__paca_index_extended	src/pacarana.c	/^volatile __nv unsigned int __paca_index_extended = 0;$/;"	v
+__paca_last_ovfl	src/pacarana.c	/^volatile __nv uint16_t __paca_last_ovfl = 0;$/;"	v
+__paca_periph_maps	src/pacarana.c	/^__nv pacarana_active_vect_t __paca_periph_maps[NUM_STORED_PERIPHS] = {0}; \/\/supports 4 periphs$/;"	v
+__paca_periph_uses	src/include/libpacarana/uses_vector_init.h	/^__nv pacarana_periph_usage_t __paca_periph_uses[LIBPACARANA_USES_VECTOR_SIZE] =$/;"	v
+__paca_read_table	src/pacarana.c	/^int __paca_read_table(int func, int *state, int periph) {$/;"	f
+__paca_test_log_func	src/pacarana.c	/^void __paca_test_log_func(int x) {$/;"	f
+__paca_timer_start	src/pacarana.c	/^int __paca_timer_start(unsigned int pc, int periph, int periph_status) {$/;"	f
+__paca_timer_stop	src/pacarana.c	/^void __paca_timer_stop(int periph) {$/;"	f
+__paca_toggles	src/pacarana.c	/^volatile __nv uint8_t __paca_toggles[NUM_STORED_PERIPHS];$/;"	v
+active	src/include/libpacarana/pacarana.h	/^  unsigned int active : 1;$/;"	m	struct:__anon2
+cntr	src/include/libpacarana/pacarana.h	/^  unsigned int cntr : 16; \/\/ Allows for 8 possible states$/;"	m	struct:__anon2
+cntr	src/include/libpacarana/pacarana.h	/^  unsigned int cntr : 2;$/;"	m	struct:__anon2
+fxl_byte	src/include/libpacarana/pacarana.h	/^  uint8_t fxl_byte;$/;"	m	struct:__anon1
+num_funcs	src/include/libpacarana/pacarana.h	/^  int num_funcs;$/;"	m	struct:__anon1
+ovfl	src/include/libpacarana/pacarana.h	/^  unsigned int ovfl :8; \/\/timer overflows on start$/;"	m	struct:__anon2
+paca_init	src/pacarana.c	/^void paca_init(unsigned cfg) {$/;"	f
+paca_insert	src/pacarana.c	/^uint16_t paca_insert(uint16_t pc) {$/;"	f
+paca_update_pfs	src/pacarana.c	/^void paca_update_pfs(void) {$/;"	f
+pacarana_active_vect_t	src/include/libpacarana/pacarana.h	/^typedef unsigned int pacarana_active_vect_t;$/;"	t
+pacarana_cfg_t	src/include/libpacarana/pacarana.h	/^} pacarana_cfg_t;$/;"	t	typeref:struct:__anon1
+pacarana_periph_usage_t	src/include/libpacarana/pacarana.h	/^} pacarana_periph_usage_t;$/;"	t	typeref:struct:__anon2
+pc	src/include/libpacarana/pacarana.h	/^  unsigned int pc: 16; \/\/Add pc, make sure this is initialized to 0$/;"	m	struct:__anon2
+periph	src/include/libpacarana/pacarana.h	/^  unsigned int periph: 16;$/;"	m	struct:__anon2
+periph_status	src/include/libpacarana/pacarana.h	/^  unsigned int periph_status: 16;$/;"	m	struct:__anon2
+pf	src/include/libpacarana/pacarana.h	/^  unsigned int pf : 8; \/\/ power failure tracker$/;"	m	struct:__anon2
+pointertable	src/include/libpacarana/pacarana.h	/^  void (*pointertable[PACA_SIZE])(void);$/;"	m	struct:__anon1
+possible_states_inner	src/pacarana.c	/^void possible_states_inner(const char *periph,...) {$/;"	f
+ts	src/include/libpacarana/pacarana.h	/^  unsigned int ts : 16; \/\/timer count on start$/;"	m	struct:__anon2

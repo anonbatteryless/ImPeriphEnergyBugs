@@ -1,0 +1,3 @@
+include $(LIB_ROOT)/libmspware/Makefile.family # defines FAMILY_DIR
+
+override CFLAGS += -I$(LIB_ROOT)/libmspware/src/$(FAMILY_DIR)

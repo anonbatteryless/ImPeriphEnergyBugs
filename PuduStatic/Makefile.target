@@ -1,0 +1,24 @@
+# This is the Makefile for using the Pacarana toolchain to build an app.
+$(info "****pacarana****")
+LOCAL_CFLAGS += -DPACARANA
+
+PACARANA_ROOT ?= $(TOOL_ROOT)/pacarana-pass
+PACARANA_LIB = $(PACARANA_ROOT)/tasks.so
+
+%.pacarana.bc : %.bc
+	@echo "*****Running pacarana!******"
+	$(OPT) -load $(PACARANA_LIB) \
+	  -tasks -o $@ $<
+
+LINK_OBJECTS = $(OBJECTS:.o=.pacarana.bc)
+
+override DEPS += libpacarana
+override SHARED_DEPS += libpacarana
+
+#DEP_ROOT_libpacarana = $(ALPACA_ROOT)/PacaranaRuntime
+
+override CFLAGS += $(LOCAL_CFLAGS) \
+
+override TOOLCHAIN = clang
+include $(MAKER_ROOT)/Makefile.clang
+

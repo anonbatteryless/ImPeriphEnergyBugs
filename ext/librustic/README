@@ -1,0 +1,4 @@
+Rustic runtime: jit + atomic runtime for use with rust applications
+
+Make sure LIBRUSTIC_TOOLCHAIN is set to gcc/clang depending on the compiler used
+for the _application_ that librustic will link into.

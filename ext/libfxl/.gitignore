@@ -1,0 +1,9 @@
+.*.swa
+.*.swp
+*.bc
+*.a
+*.o
+*.d
+*.out
+*.a
+bld

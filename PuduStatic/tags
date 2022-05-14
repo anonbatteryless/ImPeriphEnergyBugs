@@ -1,0 +1,312 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AsynchronousReader	src/csv.h	/^                class AsynchronousReader{$/;"	c	namespace:io::detail
+BACKWARDS	src/tasks.cpp	52;"	d	file:
+BIN	Makefile	/^BIN = .\/bld$/;"	m
+BasicBlocks	src/extra_function_check.h	/^typedef std::vector<BasicBlock *> BasicBlocks;$/;"	t
+BreakEvenMapType	src/inference.h	/^typedef std::map<GlobalVariable*,std::map<unsigned,unsigned>> BreakEvenMapType;$/;"	t
+ByteSourceBase	src/csv.h	/^        class ByteSourceBase{$/;"	c	namespace:io
+CSVReader	src/csv.h	/^                explicit CSVReader(Args&&...args):in(std::forward<Args>(args)...){$/;"	f	class:io::CSVReader
+CSVReader	src/csv.h	/^        class CSVReader{$/;"	c	namespace:io
+CSV_H	src/csv.h	33;"	d
+CSV_IO_NO_THREAD	src/atomic_report.cpp	34;"	d	file:
+CSV_IO_NO_THREAD	src/auto_activation.cpp	34;"	d	file:
+CXXFLAGS	Makefile	/^CXXFLAGS = -rdynamic $(shell llvm-config-7 --cxxflags) -g -O0 -fexceptions$/;"	m
+EMPTY	src/tasks.cpp	51;"	d	file:
+EMapType	src/inference.h	/^typedef std::map<Function *, unsigned> EMapType;$/;"	t
+Emap	src/tasks.cpp	/^EMapType Emap;$/;"	v
+FUDGE_FACTOR	src/inference.h	39;"	d
+FuncPeriphMap	src/tasks.cpp	/^std::map<Function*, map<Instruction*, std::string>>FuncPeriphMap;$/;"	v
+GENERIC_EVAL	src/inference.h	40;"	d
+ID	src/tasks.cpp	/^    static char ID;$/;"	m	class:__anon1::TaskGraphs	file:
+ID	src/tasks.cpp	/^  char TaskGraphs::ID = 0;$/;"	m	class:__anon1::TaskGraphs	file:
+INT_CONCURRENCY_H_	src/int_concurrency.h	2;"	d
+LineReader	src/csv.h	/^                LineReader(const char*file_name, FILE*file){$/;"	f	class:io::LineReader
+LineReader	src/csv.h	/^                LineReader(const char*file_name, const char*data_begin, const char*data_end){$/;"	f	class:io::LineReader
+LineReader	src/csv.h	/^                LineReader(const char*file_name, std::istream&in){$/;"	f	class:io::LineReader
+LineReader	src/csv.h	/^                LineReader(const char*file_name, std::unique_ptr<ByteSourceBase>byte_source){$/;"	f	class:io::LineReader
+LineReader	src/csv.h	/^                LineReader(const std::string&file_name, FILE*file){$/;"	f	class:io::LineReader
+LineReader	src/csv.h	/^                LineReader(const std::string&file_name, const char*data_begin, const char*data_end){$/;"	f	class:io::LineReader
+LineReader	src/csv.h	/^                LineReader(const std::string&file_name, std::istream&in){$/;"	f	class:io::LineReader
+LineReader	src/csv.h	/^                LineReader(const std::string&file_name, std::unique_ptr<ByteSourceBase>byte_source){$/;"	f	class:io::LineReader
+LineReader	src/csv.h	/^                explicit LineReader(const char*file_name){$/;"	f	class:io::LineReader
+LineReader	src/csv.h	/^                explicit LineReader(const std::string&file_name){$/;"	f	class:io::LineReader
+LineReader	src/csv.h	/^        class LineReader{$/;"	c	namespace:io
+NonOwningIStreamByteSource	src/csv.h	/^                        explicit NonOwningIStreamByteSource(std::istream&in):in(in){}$/;"	f	class:io::detail::NonOwningIStreamByteSource
+NonOwningIStreamByteSource	src/csv.h	/^                class NonOwningIStreamByteSource : public ByteSourceBase{$/;"	c	namespace:io::detail
+NonOwningStringByteSource	src/csv.h	/^                        NonOwningStringByteSource(const char*str, long long size):str(str), remaining_byte_count(size){}$/;"	f	class:io::detail::NonOwningStringByteSource
+NonOwningStringByteSource	src/csv.h	/^                class NonOwningStringByteSource : public ByteSourceBase{$/;"	c	namespace:io::detail
+OBJS	Makefile	/^OBJS = $(patsubst $(SRC)\/%.cpp,%.o,$(SOURCES))$/;"	m
+OwningStdIOByteSourceBase	src/csv.h	/^                        explicit OwningStdIOByteSourceBase(FILE*file):file(file){$/;"	f	class:io::detail::OwningStdIOByteSourceBase
+OwningStdIOByteSourceBase	src/csv.h	/^                class OwningStdIOByteSourceBase : public ByteSourceBase{$/;"	c	namespace:io::detail
+SOURCES	Makefile	/^SOURCES = $(wildcard $(SRC)\/*.cpp)$/;"	m
+SRC	Makefile	/^SRC = .\/src$/;"	m
+StateMapEntry	src/path_check.h	/^typedef map<std::string,std::vector<Instruction*>>StateMapEntry;$/;"	t
+SynchronousReader	src/csv.h	/^                class SynchronousReader{$/;"	c	namespace:io::detail
+TEST_ALL	Makefile	/^TEST_ALL=0$/;"	m
+TaskGraphs	src/tasks.cpp	/^    TaskGraphs() : ModulePass(ID) { }$/;"	f	class:__anon1::TaskGraphs
+TaskGraphs	src/tasks.cpp	/^  class TaskGraphs : public ModulePass {$/;"	c	namespace:__anon1	file:
+VISITED	src/extra_function_check.cpp	17;"	d	file:
+VISITED	src/int_concurrency.h	9;"	d
+VPATH	Makefile	/^VPATH = $(SRC)$/;"	m
+_EX_FUNC_CHECK_H_	src/extra_function_check.h	2;"	d
+_INFERENCE_H_	src/inference.h	2;"	d
+_TASKS_H_	src/tasks.h	2;"	d
+__ATOMIC_REPORT_H_	src/atomic_report.h	2;"	d
+__AUTO_ACTIVATION_H_	src/auto_activation.h	2;"	d
+__CLASSICAL_DATAFLOW_H__	src/dataflow.h	6;"	d
+__PATH_CHECK__	src/path_check.h	2;"	d
+_paca_model	src/periph_schedule.h	/^char _paca_model[7][10] =  {"radio","apds","gyro",$/;"	v
+_paca_model_vals	src/periph_schedule.h	/^float _paca_model_vals[30][8] = {$/;"	v
+accel_table	inputs/accel_table.h	/^int accel_table[3][6] = {$/;"	v
+add_breaks	src/dataflow.cpp	/^  void add_breaks(Function *F) {$/;"	f	namespace:llvm
+add_isr	src/dataflow.cpp	/^  void add_isr(BasicBlock * B, Function * ISR, Function * current, Value *dummy) {$/;"	f	namespace:llvm
+add_toggle	src/auto_activation.cpp	/^void add_toggle(Function *F,blockInstMap &states) {$/;"	f
+assembleLoopIters	src/inference.cpp	/^void assembleLoopIters(Module &M, iterCountMap &iters) {$/;"	f
+base	src/csv.h	/^                struct base : std::exception{$/;"	s	namespace:io::error
+blockInstMap	src/path_check.h	/^typedef std::map<BasicBlock*,StateMapEntry> blockInstMap;$/;"	t
+blockMap	src/tasks.cpp	/^blockInstMap blockMap;$/;"	v
+blockMap_ISR	src/tasks.cpp	/^blockInstMap blockMap_ISR;$/;"	v
+block_len	src/csv.h	/^                static const int block_len = 1<<20;$/;"	m	class:io::LineReader
+buffer	src/csv.h	/^                        char*buffer;$/;"	m	class:io::detail::AsynchronousReader
+buffer	src/csv.h	/^                        char*buffer;$/;"	m	class:io::detail::SynchronousReader
+buffer	src/csv.h	/^                std::unique_ptr<char[]>buffer; \/\/ must be constructed before (and thus destructed after) the reader!$/;"	m	class:io::LineReader
+byte_source	src/csv.h	/^                        std::unique_ptr<ByteSourceBase>byte_source;$/;"	m	class:io::detail::AsynchronousReader
+byte_source	src/csv.h	/^                        std::unique_ptr<ByteSourceBase>byte_source;$/;"	m	class:io::detail::SynchronousReader
+calc_insts	src/inference.cpp	/^unsigned calc_insts(Function *F, LoopInfo &LI,$/;"	f
+callMapType	src/extra_function_check.h	/^    callMapType; $/;"	t
+can_not_open_file	src/csv.h	/^                struct can_not_open_file :$/;"	s	namespace:io::error
+checkDisable	src/int_concurrency.cpp	/^int checkDisable(BasicBlock *BB, Function *dis, Function *en,visitBlockType &bl)$/;"	f
+checkVisits	src/inference.cpp	/^unsigned checkVisits(std::map<BasicBlock *, unsigned>visits) {$/;"	f
+check_extra_functions	src/extra_function_check.cpp	/^void check_extra_functions(Module &M, blockInstMap allowedStates,callMapType$/;"	f
+check_if_constant	src/tasks.cpp	/^int64_t check_if_constant(Value *test) {$/;"	f
+check_toggle_conditions	src/auto_activation.cpp	/^void check_toggle_conditions(Function **sleeper, Function **restorer,std::string$/;"	f
+chop_next_column	src/csv.h	/^                void chop_next_column($/;"	f	namespace:io::detail
+col_order	src/csv.h	/^                std::vector<int>col_order;$/;"	m	class:io::CSVReader
+color_table	inputs/color_table.h	/^int color_table[1][6] = {$/;"	v
+column_content	src/csv.h	/^                        char column_content[max_column_content_length+1];$/;"	m	struct:io::error::with_column_content
+column_name	src/csv.h	/^                        char column_name[max_column_name_length+1];$/;"	m	struct:io::error::with_column_name
+column_names	src/csv.h	/^                std::string column_names[column_count];$/;"	m	class:io::CSVReader
+containsFunc	src/int_concurrency.cpp	/^bool containsFunc(Function *F, BasicBlock *B) {$/;"	f
+countInstsInLoop	src/inference.cpp	/^unsigned countInstsInLoop(Loop *L, LoopInfo &LI, iterCountMap &loopCounts,$/;"	f
+cxxflags-cheat	Makefile	/^cxxflags-cheat = -I\/usr\/include\\$/;"	m
+data_begin	src/csv.h	/^                int data_begin;$/;"	m	class:io::LineReader
+data_end	src/csv.h	/^                int data_end;$/;"	m	class:io::LineReader
+desired_byte_count	src/csv.h	/^                        int desired_byte_count;$/;"	m	class:io::detail::AsynchronousReader
+desired_byte_count	src/csv.h	/^                        int desired_byte_count;$/;"	m	class:io::detail::SynchronousReader
+detail	src/csv.h	/^        namespace detail{$/;"	n	namespace:io
+detailed_print	src/path_check.cpp	/^void detailed_print(Function *F) {$/;"	f
+disEnMapType	src/int_concurrency.h	/^typedef std::map<std::string, Function*> disEnMapType;$/;"	t
+disablers	src/tasks.cpp	/^disEnMapType disablers;$/;"	v
+double_quote_escape	src/csv.h	/^        struct double_quote_escape{$/;"	s	namespace:io
+duplicated_column_in_header	src/csv.h	/^                struct duplicated_column_in_header :$/;"	s	namespace:io::error
+easy_print	src/path_check.cpp	/^void easy_print(BasicBlock * BB) {$/;"	f
+empty_line_comment	src/csv.h	/^        struct empty_line_comment{$/;"	s	namespace:io
+enablers	src/tasks.cpp	/^disEnMapType enablers;$/;"	v
+errno_value	src/csv.h	/^                        int errno_value;$/;"	m	struct:io::error::with_errno
+error	src/csv.h	/^        namespace error{$/;"	n	namespace:io
+error_message_buffer	src/csv.h	/^                        mutable char error_message_buffer[512];$/;"	m	struct:io::error::base
+escaped_string_not_closed	src/csv.h	/^                struct escaped_string_not_closed :$/;"	s	namespace:io::error
+exitMatch	src/tasks.cpp	/^std::map<BasicBlock*,std::string>exitMatch;$/;"	v
+exitPoints	src/tasks.cpp	/^std::map<Function*,std::vector<BasicBlock*>>exitPoints;$/;"	v
+exits_ISR	src/tasks.cpp	/^std::map<Function*, std::vector<BasicBlock*>>exits_ISR;$/;"	v
+extra_column_in_header	src/csv.h	/^                struct extra_column_in_header :$/;"	s	namespace:io::error
+file	src/csv.h	/^                        FILE*file;$/;"	m	class:io::detail::OwningStdIOByteSourceBase
+file_line	src/csv.h	/^                        int file_line;$/;"	m	struct:io::error::with_file_line
+file_line	src/csv.h	/^                unsigned file_line;$/;"	m	class:io::LineReader
+file_name	src/csv.h	/^                        char file_name[max_file_name_length+1];$/;"	m	struct:io::error::with_file_name
+file_name	src/csv.h	/^                char file_name[error::max_file_name_length+1];$/;"	m	class:io::LineReader
+findClosestDebugLoc	src/dataflow.cpp	/^  DebugLoc findClosestDebugLoc( Instruction *I) {$/;"	f	namespace:llvm
+find_activation_functions	src/auto_activation.cpp	/^void find_activation_functions(Module &M) {$/;"	f
+find_isr_disEn	src/int_concurrency.cpp	/^void find_isr_disEn(Module &M, disEnMapType &enables, disEnMapType &disables) {$/;"	f
+find_next_column_end	src/csv.h	/^                static const char*find_next_column_end(const char*col_begin){$/;"	f	struct:io::double_quote_escape
+find_next_column_end	src/csv.h	/^                static const char*find_next_column_end(const char*col_begin){$/;"	f	struct:io::no_quote_escape
+find_toggle_flags	src/auto_activation.cpp	/^void find_toggle_flags(Module *M) {$/;"	f
+finish_read	src/csv.h	/^                        int finish_read(){$/;"	f	class:io::detail::AsynchronousReader
+finish_read	src/csv.h	/^                        int finish_read(){$/;"	f	class:io::detail::SynchronousReader
+getLoopGuardBranch	src/inference.cpp	/^ BranchInst *getLoopGuardBranch(Loop * loop) {$/;"	f
+getMinUnvisited	src/inference.cpp	/^BasicBlock * getMinUnvisited( std::map<BasicBlock *, unsigned> dists,$/;"	f
+get_constant	src/path_check.cpp	/^int64_t get_constant(Instruction *ItI) {$/;"	f
+get_file_line	src/csv.h	/^                unsigned get_file_line()const{$/;"	f	class:io::CSVReader
+get_file_line	src/csv.h	/^                unsigned get_file_line()const{$/;"	f	class:io::LineReader
+get_truncated_file_name	src/csv.h	/^                const char*get_truncated_file_name()const{$/;"	f	class:io::CSVReader
+get_truncated_file_name	src/csv.h	/^                const char*get_truncated_file_name()const{$/;"	f	class:io::LineReader
+get_typestates	src/path_check.cpp	/^int get_typestates(blockInstMap &blockMap,periphStateMap &periphStates, BasicBlock *BB) {$/;"	f
+gyro_table	inputs/gyro_table.h	/^int gyro_table[2][6] = {$/;"	v
+has_column	src/csv.h	/^                bool has_column(const std::string&name) const {$/;"	f	class:io::CSVReader
+header_missing	src/csv.h	/^                struct header_missing :$/;"	s	namespace:io::error
+ignore_extra_column	src/csv.h	/^        static const ignore_column ignore_extra_column = 1;$/;"	m	namespace:io
+ignore_missing_column	src/csv.h	/^        static const ignore_column ignore_missing_column = 2;$/;"	m	namespace:io
+ignore_no_column	src/csv.h	/^        static const ignore_column ignore_no_column = 0;$/;"	m	namespace:io
+ignore_overflow	src/csv.h	/^        struct ignore_overflow{$/;"	s	namespace:io
+in	src/csv.h	/^                       std::istream&in;$/;"	m	class:io::detail::NonOwningIStreamByteSource
+in	src/csv.h	/^                LineReader in;$/;"	m	class:io::CSVReader
+index_find	src/auto_activation.cpp	/^int index_find(std::vector<std::string>x,std::string key) {$/;"	f
+init	src/csv.h	/^                        void init(std::unique_ptr<ByteSourceBase>arg_byte_source){$/;"	f	class:io::detail::AsynchronousReader
+init	src/csv.h	/^                        void init(std::unique_ptr<ByteSourceBase>arg_byte_source){$/;"	f	class:io::detail::SynchronousReader
+init	src/csv.h	/^                void init(std::unique_ptr<ByteSourceBase>byte_source){$/;"	f	class:io::LineReader
+insert_const_single_state_opt	src/auto_activation.cpp	/^void insert_const_single_state_opt(Instruction **disI, Instruction **reI,$/;"	f
+insert_multi_state_branch	src/auto_activation.cpp	/^void insert_multi_state_branch(Instruction **disI, Instruction **reI, std::string periph,$/;"	f
+insert_nonconst_single_state_opt	src/auto_activation.cpp	/^void insert_nonconst_single_state_opt(Instruction **disI, Instruction **reI,$/;"	f
+insert_toggle_conditions	src/auto_activation.cpp	/^void insert_toggle_conditions(periphStateMap &periphs, Function *fut, Value$/;"	f
+integer_must_be_positive	src/csv.h	/^                struct integer_must_be_positive :$/;"	s	namespace:io::error
+integer_overflow	src/csv.h	/^                struct integer_overflow :$/;"	s	namespace:io::error
+integer_underflow	src/csv.h	/^                struct integer_underflow :$/;"	s	namespace:io::error
+interrupt_dummy	src/tasks.cpp	/^  Value *interrupt_dummy;$/;"	m	namespace:__anon1	file:
+interrupts	src/tasks.cpp	/^std::vector<Function*> interrupts;$/;"	v
+invalid_single_character	src/csv.h	/^                struct invalid_single_character :$/;"	s	namespace:io::error
+io	src/csv.h	/^namespace io{$/;"	n
+isPeriphModifier	src/dataflow.cpp	/^  bool isPeriphModifier(Instruction *I) {$/;"	f	namespace:llvm
+isTopLevelCall	src/extra_function_check.cpp	/^int isTopLevelCall(CallInst * CI, visitCallType &cl, BasicBlocks &bls) {$/;"	f
+is_comment	src/csv.h	/^                static bool is_comment(const char*){$/;"	f	struct:io::no_comment
+is_comment	src/csv.h	/^                static bool is_comment(const char*line){$/;"	f	struct:io::empty_line_comment
+is_comment	src/csv.h	/^                static bool is_comment(const char*line){$/;"	f	struct:io::single_and_empty_line_comment
+is_comment	src/csv.h	/^                static bool is_comment(const char*line){$/;"	f	struct:io::single_line_comment
+is_comment_start_char	src/csv.h	/^                constexpr static bool is_comment_start_char(char c, char comment_start_char, OtherCommentStartChars...other_comment_start_chars){$/;"	f	struct:io::single_line_comment
+is_comment_start_char	src/csv.h	/^                constexpr static bool is_comment_start_char(char){$/;"	f	struct:io::single_line_comment
+is_trim_char	src/csv.h	/^                constexpr static bool is_trim_char(char c, char trim_char, OtherTrimChars...other_trim_chars){$/;"	f	struct:io::trim_chars
+is_trim_char	src/csv.h	/^                constexpr static bool is_trim_char(char){$/;"	f	struct:io::trim_chars
+is_valid	src/csv.h	/^                        bool is_valid()const{$/;"	f	class:io::detail::AsynchronousReader
+is_valid	src/csv.h	/^                        bool is_valid()const{$/;"	f	class:io::detail::SynchronousReader
+iterCountMap	src/inference.h	/^typedef std::map<BasicBlock*, unsigned> iterCountMap;$/;"	t
+iterate	src/dataflow.cpp	/^ void iterate(Function* F, tf_t t_func, mop_t meet_op,$/;"	f	namespace:llvm
+line_length_limit_exceeded	src/csv.h	/^                struct line_length_limit_exceeded :$/;"	s	namespace:io::error
+llvm	src/dataflow.cpp	/^namespace llvm {$/;"	n	file:
+llvm	src/dataflow.h	/^namespace llvm {$/;"	n
+lock	src/csv.h	/^                        std::mutex lock;$/;"	m	class:io::detail::AsynchronousReader
+loopIters	src/tasks.cpp	/^iterCountMap loopIters;$/;"	v
+max_column_content_length	src/csv.h	/^                const int max_column_content_length = 63;$/;"	m	namespace:io::error
+max_column_name_length	src/csv.h	/^                const int max_column_name_length = 63;$/;"	m	namespace:io::error
+max_file_name_length	src/csv.h	/^                const int max_file_name_length = 255;$/;"	m	namespace:io::error
+meet_op	src/tasks.cpp	/^  void meet_op(BasicBlock* BB,$/;"	f	namespace:__anon1
+meet_op_ISR	src/tasks.cpp	/^  void meet_op_ISR(BasicBlock* BB,$/;"	f	namespace:__anon1
+mergeMaps	src/tasks.cpp	/^  void mergeMaps(BasicBlock* Pred,$/;"	f	namespace:__anon1
+missing_column_in_header	src/csv.h	/^                struct missing_column_in_header :$/;"	s	namespace:io::error
+mop_t	src/dataflow.h	/^typedef void (*mop_t)(BasicBlock*,$/;"	t	namespace:llvm
+multi_path_check	src/path_check.cpp	/^int multi_path_check(DominatorTree * DT, BasicBlock * UseBB, BasicBlock * TestBB) {$/;"	f
+next_line	src/csv.h	/^		char*next_line(){$/;"	f	class:io::CSVReader
+next_line	src/csv.h	/^                char*next_line(){$/;"	f	class:io::LineReader
+no_comment	src/csv.h	/^        struct no_comment{$/;"	s	namespace:io
+no_digit	src/csv.h	/^                struct no_digit :$/;"	s	namespace:io::error
+no_quote_escape	src/csv.h	/^        struct no_quote_escape{$/;"	s	namespace:io
+on_overflow	src/csv.h	/^                static void on_overflow(T&){$/;"	f	struct:io::throw_on_overflow
+on_overflow	src/csv.h	/^                static void on_overflow(T&){}$/;"	f	struct:io::ignore_overflow
+on_overflow	src/csv.h	/^                static void on_overflow(T&x){$/;"	f	struct:io::set_to_max_on_overflow
+on_underflow	src/csv.h	/^                static void on_underflow(T&){$/;"	f	struct:io::throw_on_overflow
+on_underflow	src/csv.h	/^                static void on_underflow(T&){}$/;"	f	struct:io::ignore_overflow
+on_underflow	src/csv.h	/^                static void on_underflow(T&x){$/;"	f	struct:io::set_to_max_on_overflow
+open_file	src/csv.h	/^                static std::unique_ptr<ByteSourceBase> open_file(const char*file_name){$/;"	f	class:io::LineReader
+parse	src/csv.h	/^                template<class overflow_policy> void parse(char*col, double&x) { parse_float(col, x); }$/;"	f	namespace:io::detail
+parse	src/csv.h	/^                template<class overflow_policy> void parse(char*col, float&x) { parse_float(col, x); }$/;"	f	namespace:io::detail
+parse	src/csv.h	/^                template<class overflow_policy> void parse(char*col, long double&x) { parse_float(col, x); }$/;"	f	namespace:io::detail
+parse	src/csv.h	/^                template<class overflow_policy>void parse(char*col, signed char &x)$/;"	f	namespace:io::detail
+parse	src/csv.h	/^                template<class overflow_policy>void parse(char*col, signed int &x)$/;"	f	namespace:io::detail
+parse	src/csv.h	/^                template<class overflow_policy>void parse(char*col, signed long &x)$/;"	f	namespace:io::detail
+parse	src/csv.h	/^                template<class overflow_policy>void parse(char*col, signed long long &x)$/;"	f	namespace:io::detail
+parse	src/csv.h	/^                template<class overflow_policy>void parse(char*col, signed short &x)$/;"	f	namespace:io::detail
+parse	src/csv.h	/^                template<class overflow_policy>void parse(char*col, unsigned char &x)$/;"	f	namespace:io::detail
+parse	src/csv.h	/^                template<class overflow_policy>void parse(char*col, unsigned int &x)$/;"	f	namespace:io::detail
+parse	src/csv.h	/^                template<class overflow_policy>void parse(char*col, unsigned long &x)$/;"	f	namespace:io::detail
+parse	src/csv.h	/^                template<class overflow_policy>void parse(char*col, unsigned long long &x)$/;"	f	namespace:io::detail
+parse	src/csv.h	/^                template<class overflow_policy>void parse(char*col, unsigned short &x)$/;"	f	namespace:io::detail
+parse	src/csv.h	/^                void parse(char*col, T&x){$/;"	f	namespace:io::detail
+parse	src/csv.h	/^                void parse(char*col, char &x){$/;"	f	namespace:io::detail
+parse	src/csv.h	/^                void parse(char*col, char*&x){$/;"	f	namespace:io::detail
+parse	src/csv.h	/^                void parse(char*col, const char*&x){$/;"	f	namespace:io::detail
+parse	src/csv.h	/^                void parse(char*col, std::string&x){$/;"	f	namespace:io::detail
+parse_break_even_data	src/inference.cpp	/^void parse_break_even_data(std::string filename, periphVectType &periphs,$/;"	f
+parse_float	src/csv.h	/^                void parse_float(const char*col, T&x){$/;"	f	namespace:io::detail
+parse_header_line	src/csv.h	/^                void parse_header_line($/;"	f	namespace:io::detail
+parse_helper	src/csv.h	/^                void parse_helper(std::size_t r, T&t, ColType&...cols){                        $/;"	f	class:io::CSVReader
+parse_helper	src/csv.h	/^                void parse_helper(std::size_t){}$/;"	f	class:io::CSVReader
+parse_line	src/csv.h	/^                void parse_line($/;"	f	namespace:io::detail
+parse_signed_integer	src/csv.h	/^                void parse_signed_integer(const char*col, T&x){$/;"	f	namespace:io::detail
+parse_unsigned_integer	src/csv.h	/^                void parse_unsigned_integer(const char*col, T&x){$/;"	f	namespace:io::detail
+periphStateMap	src/path_check.h	/^typedef map<std::string,std::vector<int>>periphStateMap;$/;"	t
+periphStates	src/tasks.cpp	/^std::map<std::string,std::vector<Instruction*>> periphStates;$/;"	v
+periphVectType	src/inference.h	/^typedef std::vector<GlobalVariable*> periphVectType;$/;"	t
+periph_restorers	src/auto_activation.cpp	/^std::map<std::string,Function*>periph_restorers;$/;"	v
+periph_sleepers	src/auto_activation.cpp	/^std::map<std::string,Function*>periph_sleepers;$/;"	v
+peripherals	src/tasks.cpp	/^periphVectType peripherals;$/;"	v
+process_preloaded_functions	src/inference.cpp	/^void process_preloaded_functions(std::string filename) {$/;"	f
+prox_table	inputs/prox_table.h	/^int prox_table[1][6] = {$/;"	v
+read	src/csv.h	/^                        int read(char*buffer, int desired_byte_count){$/;"	f	class:io::detail::NonOwningStringByteSource
+read	src/csv.h	/^                        int read(char*buffer, int size){$/;"	f	class:io::detail::NonOwningIStreamByteSource
+read	src/csv.h	/^                        int read(char*buffer, int size){$/;"	f	class:io::detail::OwningStdIOByteSourceBase
+read_byte_count	src/csv.h	/^                        int read_byte_count;$/;"	m	class:io::detail::AsynchronousReader
+read_error	src/csv.h	/^                        std::exception_ptr read_error;$/;"	m	class:io::detail::AsynchronousReader
+read_finished_condition	src/csv.h	/^                        std::condition_variable read_finished_condition;$/;"	m	class:io::detail::AsynchronousReader
+read_header	src/csv.h	/^                void read_header(ignore_column ignore_policy, ColNames...cols){$/;"	f	class:io::CSVReader
+read_requested_condition	src/csv.h	/^                        std::condition_variable read_requested_condition;  $/;"	m	class:io::detail::AsynchronousReader
+read_row	src/csv.h	/^                bool read_row(ColType& ...cols){$/;"	f	class:io::CSVReader
+read_thresholds	src/auto_activation.cpp	/^void read_thresholds(std::string filename) {$/;"	f
+reader	src/csv.h	/^                detail::AsynchronousReader reader;$/;"	m	class:io::LineReader
+reader	src/csv.h	/^                detail::SynchronousReader reader;$/;"	m	class:io::LineReader
+remaining_byte_count	src/csv.h	/^                        long long remaining_byte_count;$/;"	m	class:io::detail::NonOwningStringByteSource
+report_atomic_typestates	src/atomic_report.cpp	/^void report_atomic_typestates(Function *F,blockInstMap &states) {$/;"	f
+report_low_usage	src/inference.cpp	/^void report_low_usage(Module &M, periphVectType &periphs,blockInstMap &states,$/;"	f
+report_problem_typestates	src/atomic_report.cpp	/^int report_problem_typestates(blockInstMap &blockMap, BasicBlock *BB) {$/;"	f
+report_spec_match	src/path_check.cpp	/^void report_spec_match(Module& M, blockInstMap allowedStates) {$/;"	f
+row	src/csv.h	/^                char*row[column_count];$/;"	m	class:io::CSVReader
+runOnModule	src/tasks.cpp	/^    virtual bool runOnModule(Module& M) {$/;"	f	class:__anon1::TaskGraphs
+searchEn	src/int_concurrency.cpp	/^int searchEn(BasicBlock *BB, Function *dis, Function *en,visitBlockType &bl) {$/;"	f
+set_column_content	src/csv.h	/^                        void set_column_content(const char*column_content){$/;"	f	struct:io::error::with_column_content
+set_column_name	src/csv.h	/^                        void set_column_name(const char*column_name){$/;"	f	struct:io::error::with_column_name
+set_column_names	src/csv.h	/^                void set_column_names(){}$/;"	f	class:io::CSVReader
+set_column_names	src/csv.h	/^                void set_column_names(std::string s, ColNames...cols){$/;"	f	class:io::CSVReader
+set_errno	src/csv.h	/^                        void set_errno(int errno_value){$/;"	f	struct:io::error::with_errno
+set_file_line	src/csv.h	/^                        void set_file_line(int file_line){$/;"	f	struct:io::error::with_file_line
+set_file_line	src/csv.h	/^                void set_file_line(unsigned file_line){$/;"	f	class:io::CSVReader
+set_file_line	src/csv.h	/^                void set_file_line(unsigned file_line){$/;"	f	class:io::LineReader
+set_file_name	src/csv.h	/^                        void set_file_name(const char*file_name){$/;"	f	struct:io::error::with_file_name
+set_file_name	src/csv.h	/^                void set_file_name(const char*file_name){$/;"	f	class:io::CSVReader
+set_file_name	src/csv.h	/^                void set_file_name(const char*file_name){$/;"	f	class:io::LineReader
+set_file_name	src/csv.h	/^                void set_file_name(const std::string&file_name){$/;"	f	class:io::CSVReader
+set_file_name	src/csv.h	/^                void set_file_name(const std::string&file_name){$/;"	f	class:io::LineReader
+set_header	src/csv.h	/^                void set_header(ColNames...cols){$/;"	f	class:io::CSVReader
+set_to_max_on_overflow	src/csv.h	/^        struct set_to_max_on_overflow{$/;"	s	namespace:io
+simple_funcs	src/auto_activation.cpp	/^std::vector<std::string>simple_funcs;$/;"	v
+simple_periphs	src/auto_activation.cpp	/^std::vector<std::string>simple_periphs;$/;"	v
+single_and_empty_line_comment	src/csv.h	/^        struct single_and_empty_line_comment{$/;"	s	namespace:io
+single_line_comment	src/csv.h	/^        struct single_line_comment{$/;"	s	namespace:io
+start_read	src/csv.h	/^                        void start_read(char*arg_buffer, int arg_desired_byte_count){$/;"	f	class:io::detail::AsynchronousReader
+start_read	src/csv.h	/^                        void start_read(char*arg_buffer, int arg_desired_byte_count){$/;"	f	class:io::detail::SynchronousReader
+str	src/csv.h	/^                        const char*str;$/;"	m	class:io::detail::NonOwningStringByteSource
+succTasks	src/tasks.cpp	/^std::map<Function*,std::vector<Function*>> succTasks;$/;"	v
+temp_table	inputs/temp_table.h	/^int temp_table[1][6] = {$/;"	v
+termination_requested	src/csv.h	/^                        bool termination_requested;$/;"	m	class:io::detail::AsynchronousReader
+test_path_check	src/path_check.cpp	/^void test_path_check(DominatorTree * DT, std::vector<BasicBlock*> UseBBs,$/;"	f
+tf	src/tasks.cpp	/^  void tf(Instruction *I,$/;"	f	namespace:__anon1
+tf_t	src/dataflow.h	/^typedef void (*tf_t)(Instruction* bb,$/;"	t	namespace:llvm
+thresholds	src/auto_activation.cpp	/^std::map<std::string,std::map<std::string,int>>thresholds;$/;"	v
+throw_on_overflow	src/csv.h	/^        struct throw_on_overflow{$/;"	s	namespace:io
+toggleFlags	src/auto_activation.cpp	/^std::map<std::string,Value*>toggleFlags;$/;"	v
+too_few_columns	src/csv.h	/^                struct too_few_columns :$/;"	s	namespace:io::error
+too_many_columns	src/csv.h	/^                struct too_many_columns :$/;"	s	namespace:io::error
+topoSortCG	src/inference.cpp	/^void topoSortCG( Function *F, CallGraph &CG,$/;"	f
+trim	src/csv.h	/^                static void trim(char*&str_begin, char*&str_end){$/;"	f	struct:io::trim_chars
+trim_chars	src/csv.h	/^        struct trim_chars{$/;"	s	namespace:io
+unescape	src/csv.h	/^                static void unescape(char*&, char*&){$/;"	f	struct:io::no_quote_escape
+unescape	src/csv.h	/^                static void unescape(char*&col_begin, char*&col_end){$/;"	f	struct:io::double_quote_escape
+visitBlockType	src/int_concurrency.h	/^typedef std::map<BasicBlock *, int> visitBlockType;$/;"	t
+visitCallType	src/extra_function_check.h	/^typedef std::map<CallInst *, int> visitCallType;$/;"	t
+with_column_content	src/csv.h	/^                        with_column_content(){$/;"	f	struct:io::error::with_column_content
+with_column_content	src/csv.h	/^                struct with_column_content{$/;"	s	namespace:io::error
+with_column_name	src/csv.h	/^                        with_column_name(){$/;"	f	struct:io::error::with_column_name
+with_column_name	src/csv.h	/^                struct with_column_name{$/;"	s	namespace:io::error
+with_errno	src/csv.h	/^                        with_errno(){$/;"	f	struct:io::error::with_errno
+with_errno	src/csv.h	/^                struct with_errno{$/;"	s	namespace:io::error
+with_file_line	src/csv.h	/^                        with_file_line(){$/;"	f	struct:io::error::with_file_line
+with_file_line	src/csv.h	/^                struct with_file_line{$/;"	s	namespace:io::error
+with_file_name	src/csv.h	/^                        with_file_name(){$/;"	f	struct:io::error::with_file_name
+with_file_name	src/csv.h	/^                struct with_file_name{$/;"	s	namespace:io::error
+worker	src/csv.h	/^                        std::thread worker;$/;"	m	class:io::detail::AsynchronousReader
+~AsynchronousReader	src/csv.h	/^                        ~AsynchronousReader(){$/;"	f	class:io::detail::AsynchronousReader
+~ByteSourceBase	src/csv.h	/^                virtual ~ByteSourceBase(){}$/;"	f	class:io::ByteSourceBase
+~NonOwningIStreamByteSource	src/csv.h	/^                        ~NonOwningIStreamByteSource(){}$/;"	f	class:io::detail::NonOwningIStreamByteSource
+~NonOwningStringByteSource	src/csv.h	/^                        ~NonOwningStringByteSource(){}$/;"	f	class:io::detail::NonOwningStringByteSource
+~OwningStdIOByteSourceBase	src/csv.h	/^                        ~OwningStdIOByteSourceBase(){$/;"	f	class:io::detail::OwningStdIOByteSourceBase

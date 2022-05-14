@@ -1,0 +1,51 @@
+Checking atomic block starting on line:907
+	Checking imu_status: WARNING, multiple state definitions
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 168 : Value :-1
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 887 : Value :2
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 854 : Value :1
+	Checking prox_status: WARNING, multiple state definitions
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 169 : Value :-1
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 823 : Value :1
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 809 : Value :1
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 846 : Value :1
+Checking atomic block starting on line:884
+	Checking imu_status: WARNING, multiple state definitions
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 168 : Value :-1
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 887 : Value :2
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 854 : Value :1
+	Checking prox_status: WARNING, multiple state definitions
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 823 : Value :1
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 169 : Value :-1
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 809 : Value :1
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 846 : Value :1
+Checking atomic block starting on line:841
+	Checking imu_status: WARNING, multiple state definitions
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 168 : Value :-1
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 887 : Value :2
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 854 : Value :1
+	Checking prox_status: WARNING, multiple state definitions
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 823 : Value :1
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 169 : Value :-1
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 809 : Value :1
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 846 : Value :1
+Checking atomic block starting on line:819
+	Checking imu_status: WARNING, multiple state definitions
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 168 : Value :-1
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 887 : Value :2
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 854 : Value :1
+	Checking prox_status: WARNING, multiple state definitions
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 169 : Value :-1
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 823 : Value :1
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 809 : Value :1
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 846 : Value :1
+Checking atomic block starting on line:807
+	Checking imu_status: WARNING, multiple state definitions
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 168 : Value :-1
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 887 : Value :2
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 854 : Value :1
+	Checking prox_status: WARNING, multiple state definitions
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 169 : Value :-1
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 823 : Value :1
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 809 : Value :1
+		Loc: /home/emily/Code/Software/pacarana_mezzo_tests/src/main_bugs.c: 846 : Value :1
+

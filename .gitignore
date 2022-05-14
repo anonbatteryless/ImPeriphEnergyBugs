@@ -1,0 +1,8 @@
+bld/*
+ext/*/bld/gcc/*.o
+ext/*/bld/gcc/*.a
+ext/*/bld/gcc/*.d
+*.out
+*.log
+*.txt
+*.swp

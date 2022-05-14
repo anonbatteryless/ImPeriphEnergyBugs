@@ -1,0 +1,5 @@
+This directory contains the modified linker scripts for carving out a checkpoint
+section in memory. So far it's only intended for the MSP430FR5994.
+
+These scripts still need to be put somewhere that maker (or whatever) can
+actually find them, or they need to be properly pointed to.
